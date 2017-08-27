@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  ゴルフもマジメ！
+ ---------------------------------------------- */
+
+
+
+
+/**
+ * 	詳細（detail.html)
+ */
+.golf_news .detail .category {
+	text-align: right;
+	margin-top: 2px;
+}
+.golf_news .detail div.picture a {
+	display:block;
+	margin: 20px auto;
+}
+
+
+@charset "utf-8";
+.golf_news span.star {
+    background: url("../img/evaluate_star.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 12px;
+    margin: 3px 0 0;
+    width: 60px;
+}
+.golf_news span.star.star0 {
+    background-position: -58px 0;
+}
+.golf_news span.star.star1 {
+    background-position: -46px 0;
+}
+.golf_news span.star.star2 {
+    background-position: -36px 0;
+}
+.golf_news span.star.star3 {
+    background-position: -24px 0;
+}
+.golf_news span.star.star4 {
+    background-position: -12px 0;
+}
+.golf_news span.star.star5 {
+    background-position: 0 0;
+}
+/**
+ * 	一覧(index.html)
+ */
+
+.golf_news .index table th {
+    text-align: center;
+}
+.golf_news .index table tr td.td-picture {
+    text-align: center;
+    width: 100px;
+}
+.golf_news .index table tr td.td-date {
+    text-align: center;
+    width: 100px;
+}
+.golf_news .detail .category {
+    margin-top: 2px;
+    text-align: right;
+}
+.golf_news .detail div.picture img {
+    display: block;
+    margin: 20px auto;
+}
+.golf_news .comments li {
+    margin-bottom: 20px;
+}
+.golf_news .comments li .commenter {
+    font-size: 12px;
+    text-align: right;
+}

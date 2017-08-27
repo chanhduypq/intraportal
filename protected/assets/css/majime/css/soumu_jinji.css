@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  総務からのお知らせ：人事情報
+ ---------------------------------------------- */
+
+#majime .wrap.soumu_jinji table .td-date { width:100px;}
+#majime .wrap.soumu_jinji table .td-type { width:36px;}
+#majime .wrap.soumu_jinji table .td-name { width:114px;}
+#majime .wrap.soumu_jinji table .td-text { width:470px;}
+
+#majime .wrap.soumu_jinji table .td-type .ico {
+	margin:0;
+	width:36px;
+	height:27px;
+	background:url(../img/ico_jinji.gif) no-repeat;
+	color:#FFF;
+	display:block;
+	font-size:0;
+	text-indent:-9999px;
+}
+#majime .wrap.soumu_jinji table .td-type .ico.joined { background-position:0 0;}
+#majime .wrap.soumu_jinji table .td-type .ico.resignation { background-position:0 -27px;}
+#majime .wrap.soumu_jinji table .td-type .ico.transfer { background-position:0 -54px;}

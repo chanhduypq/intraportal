@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  事業所管理固有CSS
+ ---------------------------------------------- */
+
+/* 2013-10-22 追加 koumura 事業所管理一覧表 */
+.office .index table {
+	table-layout: fixed;
+	width: 724px;
+	border: none;
+}
+.office .index table tr td {
+	padding: 4px 2px;	
+}
+.office .index table tr .actions {
+	width: 100px;
+	text-align: center;
+}
+.office .index table tr .name {
+	width: 200px;
+}
+
+/* 事業所確認ページ */
+.office .confirm .googlemap {
+	margin-bottom: 10px;
+}

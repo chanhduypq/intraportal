@@ -1,0 +1,370 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* =======================================
+	admin - secondary
+======================================= */
+
+/*  common 
+----------------------------------------------------------------------------------*/
+
+.admin.secondary div.mainBox {
+	margin:0 20px 0 0;
+	width:764px;
+	float:left;
+}
+
+
+/* =======================================
+	secondary sideBox menu
+======================================= */
+
+.admin.secondary div.sideBox {
+	margin-top:50px;
+	padding-top:125px;
+	width:186px;
+	background:url(../img/img_menu_description.jpg) no-repeat; 
+	float:left;
+}
+.admin.secondary div.sideBox ul { margin-top:-20px; line-height:0;}
+
+/*--- menu ---*/
+
+.sideBox .menu.main {
+	margin:0 0 10px 0;
+	background:#FFF;
+	border:2px #CB0210 solid;
+}
+.sideBox .menu.sub {
+	margin:0 0 10px 0;
+	background:#FFF;
+	border:2px #333 solid;
+}
+
+.sideBox .menu dt { padding:7px 0; color:#FFF; font-size:14px; font-weight:bold; text-align:center;}
+.sideBox .menu.main dt { background:url(../img/bg_sidemenu_red.jpg) repeat-x;}
+
+.sideBox .menu.sub dt { background:url(../img/bg_sidemenu_gray.jpg) repeat-x;}
+
+.sideBox .menu dd { margin:0;}
+.sideBox .menu dd a {
+	padding:10px 5px 8px 5px;
+	background:url(../img/bg_sidemenu_off.jpg) repeat-x;
+	border-bottom:1px #CCC solid;
+	display:block;
+	font-size:14px;
+	line-height:1.2;
+	text-align:center;
+	text-decoration:none;
+	position: relative;
+}
+
+.sideBox .menu dd.admin a { background:url(../img/btn_side_admin.jpg) repeat-x;}
+.sideBox .menu dd.majime a { background:url(../img/btn_side_majime.jpg) repeat-x;}
+.sideBox .menu dd.asobi a { background:url(../img/btn_side_asobi.jpg) repeat-x;}
+
+.wrap.posts .sideBox .menu dd.admin a.posts,
+.wrap.profile .sideBox .menu dd.admin a.profile,
+.wrap.unit .sideBox .menu dd.admin a.unit,
+.wrap.base .sideBox .menu dd.admin a.base,
+.wrap.office .sideBox .menu dd.admin a.office,
+.wrap.role .sideBox .menu dd.admin a.role,
+.wrap.user .sideBox .menu dd.admin a.user,
+.wrap.post .sideBox .menu dd.admin a.post,
+.wrap.holiday .sideBox .menu dd.admin  a.holiday,
+.sideBox .menu dd.admin a:hover { background:url(../img/btn_side_admin_active.jpg) repeat-x;}
+
+.wrap.pickup .sideBox .menu dd.majime a.pickup,
+.wrap.base_news .sideBox .menu dd.majime a.base_news,
+.wrap.sales_ran .sideBox .menu dd.majime a.sales_ran,
+.wrap.soumu_news .sideBox .menu dd.majime a.soumu_news,
+.wrap.soumu_qa .sideBox .menu dd.majime a.soumu_qa,
+.wrap.zentaishihyou .sideBox .menu dd.majime a.zentaishihyou,
+.wrap.share_item .sideBox .menu dd.majime a.share_item,
+.wrap.twitter .sideBox .menu dd.majime a.twitter,
+.wrap.blogc .sideBox .menu dd.majime a.blogc,
+.wrap.slink .sideBox .menu dd.majime a.slink,
+.wrap.newitems .sideBox .menu dd.majime a.newitems,
+.wrap.criticism .sideBox .menu dd.majime a.criticism,
+.wrap.claim .sideBox .menu dd.majime a.claim,
+.wrap.trouble .sideBox .menu dd.majime a.trouble,
+.wrap.rival .sideBox .menu dd.majime a.rival,
+.wrap.president_msg .sideBox .menu dd.majime a.president_msg,
+.wrap.to_officers .sideBox .menu dd.majime a.to_officers,
+.wrap.report .sideBox .menu dd.majime a.report,
+.wrap.enquete .sideBox .menu dd.majime a.enquete,
+.wrap.ideas .sideBox .menu dd.majime a.ideas,
+.wrap.bbs .sideBox .menu dd.majime a.bbs,
+.wrap.bounty .sideBox .menu dd.majime a.bounty,
+.sideBox .menu dd.majime a:hover { background:url(../img/btn_side_majime_active.jpg) repeat-x;}
+
+.wrap.celebrate_rpt .sideBox .menu dd.asobi a.celebrate_rpt,
+.wrap.thanks .sideBox .menu dd.asobi a.thanks,
+.wrap.skill .sideBox .menu dd.asobi a.skill,
+.wrap.link .sideBox .menu dd.asobi a.link,
+.wrap.pride .sideBox .menu dd.asobi a.pride,
+.wrap.golf_news .sideBox .menu dd.asobi a.golf_news,
+.wrap.golf_score .sideBox .menu dd.asobi a.golf_score,
+.wrap.hobby_new .sideBox .menu dd.asobi a.hobby_new,
+.wrap.hobby_itd .sideBox .menu dd.asobi a.hobby_itd,
+.wrap.tagcrowd .sideBox .menu dd.asobi a.tagcrowd,
+.sideBox .menu dd.asobi a:hover { background:url(../img/btn_side_asobi_active.jpg) repeat-x;}
+
+
+.admin.secondary .box .descriptionTxt {
+	margin:0 0 20px 0;
+	padding:10px;
+	background:#FFECD0;
+	border-radius: 7px;        /* CSS3草案 */  
+    -webkit-border-radius: 7px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 7px;   /* Firefox用 */ 
+	font-size:12px;
+}
+
+/*//////////  btn //////////*/
+
+.btn-important {
+    padding:5px 7px;
+	background:url(../../common/img/btn_important.jpg) repeat-x top;
+	border:1px #A21010 solid;
+    color:#FFF;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+}
+.btn-correct {
+    padding:5px 7px;
+	background:url(../../common/img/btn_correct.jpg) repeat-x top;
+	border:1px #CCC solid;
+    color:#9B9B9B;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+}
+.btn-work {
+    padding:5px 7px;
+	background:url(../../common/img/btn_work.jpg) repeat-x top;
+	border:1px #424242 solid;
+    color:#FFF;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+}
+
+/*//////////  box //////////*/
+
+.admin.secondary .box {
+	margin:0 0 20px 0;
+	padding:20px;
+	width:724px;
+	background:#FFF;
+}
+
+.admin.secondary div.mainBox .pageTtl {
+	padding:0 0 5px 0;
+	height:50px;
+	background:url(../../common/img/bg_topttl.jpg) repeat-x bottom;
+	overflow:hidden;
+}
+.admin.secondary div.mainBox .pageTtl h2 {
+	padding:5px 0 0 0;
+	font-size:22px;
+	font-weight:bold;
+	float:left;
+}
+.admin.secondary div.mainBox .pageTtl a {
+	margin:8px 0 0 5px;
+	display:block;
+	float:right;
+}
+
+/* 2013-10-10 検索枠追加 */
+.admin.secondary div.mainBox .pageTtl div.search {
+	margin: 8px 30px 0 5px;
+	display: block;
+	float: right;
+}
+
+
+
+/* =======================================
+	secondary page
+======================================= */
+
+div.detail { font-size:14px;}
+div.detail .attachements { overflow:hidden;}
+
+div.detail .attachements .title {
+	margin:0 0 10px 0;
+	padding:0 0 7px 0;
+	border-bottom:3px #CCC solid;
+	font-size:14px;
+	font-weight:bold;
+}
+div.detail .textBox { float:left;}
+div.detail .textBox.boxL { margin-right:25px; width:423px;}
+div.detail .textBox.boxL02 { margin-right:10px; width:342px;}
+div.detail .textBox.boxL .input-xlarge, div.detail .textBox.boxL02 .input-xlarge { width:245px;} 
+div.detail .textBox.boxL select, div.detail .textBox.boxL02 select { width:100px;} 
+
+div.detail .textBox.boxR { width:260px; float:left;}
+
+div.detail .building_photo {
+	margin-top:15px;
+	padding:5px;
+	width:260px;
+	border:3px #CCC solid;
+	text-align:center;
+	overflow:hidden;
+}
+div.detail .building_photo p { margin-top:10px; padding-top:5px; border-top:1px #CCC dashed; text-align:center;}
+div.detail .textBox .field {
+	margin-bottom:20px;
+    content: "";
+    display: table;
+    line-height: 0;
+}
+
+div.detail .textBox .field .title {
+    padding-top: 5px;
+    width: 140px;
+    text-align: right;
+    float: left;
+}
+
+div.detail .textBox .field .data { margin-left:160px; padding-top:5px;}
+
+
+div.detail .cnt-box {
+	padding-bottom:20px;
+	margin:15px 0;
+	border-bottom:1px #CCC dashed;
+	overflow:hidden;
+}
+
+.baseDetailBox { overflow:hidden;}
+
+#admin table.list th { color:#CA0210; text-align:center; vertical-align:middle;}
+#admin table.list td { font-size:12px; vertical-align:middle;}
+#admin table.list .td-date { width:73px;}
+#admin table.list .td-contents,
+#admin table.list .td-sub { width:120px;}
+#admin table.list .td-contents span {
+	padding:5px;
+	background:#FFECD0;
+	color:#333;
+	display:block;
+	font-size:12px;
+	text-align:center;
+}
+#admin table.list .td-edit { width:86px;}
+#admin table.list .td-edit a {
+	margin:0 0 0 5px;
+	padding:3px 5px;
+	display:block;
+	font-size:11px;
+	float:left;
+}
+#admin table.list .td-icon { width:123px;}
+#admin table.list .td-icon span {
+	display:block;
+	float:left;
+}
+
+
+/*--- 役割管理 ---*/
+.role .ico {
+	margin:0 5px 0 0;
+	width:36px;
+	height:27px;
+	background:url(../img/ico_role.gif) no-repeat;
+	color:#FFF;
+	display:block;
+	font-size:0;
+	text-indent:-9999px;
+	float:left;
+}
+.role .ico.view { background-position:0 0;}
+.role .ico.view_off { background-position:-36px 0;}
+.role .ico.posts { background-position:0 -27px;}
+.role .ico.posts_off { background-position:-36px -27px;}
+.role .ico.control { background-position:0 -54px;}
+.role .ico.control_off { background-position:-36px -54px;}
+
+.role .detailTtl .ico { display:inline-block; float:left;}
+.role .index table td.td-date { width:100px;}
+.role .detail .counter { text-align:right;}
+
+.role .form-horizontal .control-label { width:270px;}
+.role .form-horizontal .controls { margin-left:290px;}
+.role .radio input[type="radio"], .checkbox input[type="checkbox"] {
+    float: left;
+    margin-left: -18px;
+}
+
+/*--- ユーザー管理 ---*/
+.user .selectL, .user .selectR {
+	width:300px;
+	overflow:hidden;
+	float:left;
+}
+.user .selectL select, .user .selectR select { width:300px; height:250px; cursor:default;}
+.user .centerBox {
+	margin:0 10px;
+	padding:104px 19px;
+	width:65px;
+	overflow:hidden;
+	float:left;
+}
+.user .selectL span, .user .selectR span, .user .centerBox span {
+	padding:6px;
+	background:#EFEFEF;
+	display:block;
+	font-weight:bold;
+	text-align:center;
+}
+.user .centerBox button { margin-bottom:15px;}
+
+
+/*--- トピックス‐確認 ---*/
+.topics.confirm div.mainBox .control-group p { margin-top:5px;}
+
+
+
+/*--- 製品アイデア投稿広場 --- */
+#admin .ideas .comments li {
+	margin-bottom: 20px;
+}
+#admin .ideas div.evaluate p.star,
+#admin .ideas .rating p.star {
+	margin:3px 0 0 0;
+	width:60px;
+	height:12px;
+	background:url(../../common/img/evaluate_star.gif) no-repeat 0 0;
+	background-position:-23px 0px;
+}
+
+/*--- 今日の社員ピックアップ --- */
+.pickup form select { margin-bottom:0; width:268px;}
+.pickup form select:first-child { width:615px; display:block;}
+.pickup .name { margin-bottom:10px;}
+
+/*--- 今週の部署紹介 --- */
+.base_news select { width:545px;}
+
+/*--- お祝い報告 --- */
+.celebrate_rpt select { width:545px;}
+
+/*--- 今月のありがとう --- */
+.thanks select { width:545px;}
+
+/*--- 資格取得・スキルアップ --- */
+.skill select { width:545px;}
+
+/*--- リンク集 --- */
+.link select { width:545px;}
+
+/*--- 部署管理 --- */
+.base #unit_form select { width:545px;}

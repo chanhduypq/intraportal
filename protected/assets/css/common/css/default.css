@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*--------------------common--*/
+*{
+	margin: 0;
+	padding: 0;
+	/*border: 0;*/
+	text-decoration: none;
+	line-height: 1.4em;
+	font-size: 100%;
+	font-style: normal;
+}
+
+html,body{ height:100%;}
+
+body#login,
+body#majime {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background:url(../img/bg_m.gif);
+	font-family: 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Sans-serif;
+    font-size: 12px;
+    line-height: 1.3;
+    font-weight: normal;
+	word-break: break-all;
+}
+
+body#asobi {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background:url(../img/bg_a.gif);
+	font-family: 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Sans-serif;
+    font-size: 12px;
+    line-height: 1.3;
+    font-weight: normal;
+	word-break: break-all;
+}
+body#admin {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background:url(../img/bg_admin.gif);
+	font-family: 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Sans-serif;
+    font-size: 12px;
+    line-height: 1.3;
+    font-weight: normal;
+	word-break: break-all;
+}
+
+
+
+img { border: none;}
+h1,h2,h3,h4 { line-height:1.4em; font-family:'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Sans-serif; font-weight:normal;}
+
+ul, ul li { margin:0; list-style:none;}
+li { line-height:1.4em;}
+
+img { border: none;}
+p { margin:0; padding:0; line-height:1.6em;}
+p.topTxt { margin:0; padding:0; font-size:110%; line-height:1.6em;}
+
+hr{
+	padding:0;
+	margin:0;
+	border-style:none;
+}
+.hrDash{
+	margin:5px 0 0 0;
+	border-bottom:1px #999 dashed;
+}
+.hrDotted{
+	margin:35px 0 0 0;
+	border-top:1px #000 dotted;
+}
+
+.floatL { float:left;}
+.floatR { float:right;}
+
+/*-------------------- text --*/
+
+.txtB { font-weight:bold;}
+.txtRed { color:#B00000;}
+
+.alnL { text-align:left !important;}
+.alnC { text-align:center !important;}
+.alnR { text-align:right !important;}
+
+/*-------------------- font size --*/
+
+.font12 { font-size:12px !important;}
+.font14 { font-size:14px !important;}
+.font16 { font-size:16px !important;}
+.font20 { font-size:20px !important;}
+.font22 { font-size:22px !important;}
+
+
+/*-------------------- definition_link --*/
+
+a { font-weight:bold;}
+a:link {
+	color:#333333;
+	text-decoration:underline;
+}
+a:visited {
+	color:#333333;
+	text-decoration:underline;
+	outline:none;
+}
+a:hover {
+	color:#FF6600;
+	outline:none;
+}
+a:active {
+	color:#333333;
+	outline:none;
+}
+
+/*-------------------- margin --*/
+
+.mt5 { margin:5px 0 0 0;}
+.mt10 { margin:10px 0 0 0;}
+.mt15 { margin:15px 0 0 0;}
+.mt20 { margin:20px 0 0 0;}
+.mt25 { margin:25px 0 0 0;}
+
+.mr5 { margin:0 5px 0 0;}
+.mr10 { margin:0 10px 0 0;}
+.mr15 { margin:0 15px 0 0;}
+.mr20 { margin:0 20px 0 0;}
+.mr25 { margin:0 25px 0 0;}
+
+.mb5 { margin:0 0 5px 0;}
+.mb10 { margin:0 0 10px 0;}
+.mb15 { margin:0 0 15px 0;}
+.mb20 { margin:0 0 20px 0;}
+.mb25 { margin:0 0 25px 0;}
+
+.ml5 { margin:0 0 0 5px;}
+.ml10 { margin:0 0 0 10px;}
+.ml15 { margin:0 0 0 15px;}
+.ml20 { margin:0 0 0 20px;}
+.ml25 { margin:0 0 0 25px;}
+
+
+/* =======================================
+	ClearFixElements
+======================================= */
+#loopslider ul:after {
+	content: ".";
+	height: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+#loopslider ul {
+	display: inline-block;
+	overflow: hidden;
+}
+
+/* =======================================
+	html5
+======================================= */
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary{
+　　display:block;
+}
+

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  販売ランキング
+ ---------------------------------------------- */
+
+.add-btn {
+	text-align: right;
+}
+.sales_ran .target-section .add-btn {
+	margin: 0 10px 10px;
+}
+
+.sales_ran .ranking-target {
+	padding: 10px 0;
+	border: 2px dashed #cccccc;
+}
+.sales_ran button.ranking-add {
+	width: 352px;
+}
+
+.sales_ran .target-section {
+	padding: 10px 0;
+	border: 2px dashed #cccccc;
+}
+
+.sales_ran .target-section .ranking-section {
+	margin: 0 10px;
+	padding: 10px 0;
+	border: 1px dashed #cccccc;
+}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  みんなのアンケートBOX
+ ---------------------------------------------- */
+
+#majime .enquete table .td-date { width: 110px; }
+#majime .enquete table .td-state { 
+	width: 60px;
+	text-align: center; 
+}
+#majime .enquete table .td-state span {
+	padding: 4px 10px; 
+}
+
+#majime .enquete .control-label { width:150px; color:#CA0110; font-weight:bold;}

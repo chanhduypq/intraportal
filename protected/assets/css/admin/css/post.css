@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  役職
+ ---------------------------------------------- */
+
+table .post{
+	width:480px;
+	}
+	
+hr{
+	height:3px;
+	background-color:#ccc;
+	margin-top:20px;
+	margin-bottom:20px;
+	}

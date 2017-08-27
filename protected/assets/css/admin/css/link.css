@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  リンク集
+ ---------------------------------------------- */
+
+#admin .link .index table .td-date .postsDate,
+#admin .link .index table .td-date .updateDate {
+	display: block;
+}
+#admin .link .index table .td-date .updateDate {
+	margin-top: 3px;
+	border-top: 1px dashed #CA0210;
+	padding-top: 3px;
+}
+#admin .link .index table .td-link_info {
+	width: auto;
+}
+
+#admin .link .index table .td-link_info .link_url {
+	margin: 4px 4px 10px 4px;
+}
+#admin .link .index table .td-link_info .comment {
+	font-size: 10px;
+	color: #999999;
+}

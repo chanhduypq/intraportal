@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  プロフィール閲覧
+ ---------------------------------------------- */
+
+/*--- プロフィール閲覧 ---*/
+
+.prf_all{
+		margin-bottom:10px;
+			width:750px;
+		}
+	
+.prf_left{
+	float:left;
+	text-align:center;
+	width:330px;
+	}
+
+.prf_left img{
+	padding:10px;
+	border:2px solid #CCC;
+	margin-bottom:10px;
+	}	
+
+.prf_right{
+		float:left;
+		padding-left:10px;
+			width:370px;
+	}
+.prf_right table { width:370px;}
+
+.prf_right table td{
+    padding-bottom:5px;
+	padding-top:5px;
+	border-bottom:2px dotted #CCC;
+}
+
+.prf_right table td span{
+		}
+
+.prf_right table td span.prf01{
+		}
+
+.prf_right table td span.prf02{
+		}
+
+.prf_right table td span.prf03{
+		}		
+		
+
+.prf_right table th{
+	width:80px;
+	text-align:left;
+	padding-bottom:5px;
+	padding-top:5px;
+    border-bottom:2px dotted #CCC;
+	vertical-align:text-top;	
+	}	
+
+.prf_clear{
+	clear:both;
+	}	

@@ -1,0 +1,602 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* =======================================
+	base
+======================================= */
+
+.wrap {
+	height:auto !important; /*IE6対策*/
+	height: 100%; /*IE6対策*/
+	min-height: 100%;
+	position:relative;
+	/*overflow:hidden;*/
+}
+
+/*----- link alpha -----*/
+a.logo:hover, a.mvp:hover,
+a.miniBtn:hover, a.middleBtn:hover {
+	opacity:0.6;
+	filter: alpha(opacity=60);        /* ie lt 8 */
+	-ms-filter: "alpha(opacity=60)";  /* ie 8 */
+	-moz-opacity:0.6;                 /* FF lt 1.5, Netscape */
+	-khtml-opacity: 0.6;              /* Safari 1.x */
+}
+
+button { font-weight: bold;}
+button [class^="icon-"],
+button [class*=" icon-"] { margin-top:0;}
+
+
+/* =======================================
+	header
+======================================= */
+
+#login div.header,
+#majime div.header{
+	margin:0;
+	padding-top:20px;
+	background:url(../img/head_bar.jpg) repeat-x #FFF bottom;
+}
+#asobi div.header {
+	margin:0;
+	padding-top:20px;
+	background:url(../img/head_bar02.jpg) repeat-x #FFF bottom;
+}
+#admin div.header {
+	margin:0;
+	padding-top:20px;
+	background:url(../img/head_bar03.jpg) repeat-x #FFF bottom;
+}
+
+#login div.header .headBox,
+#majime div.header .headBox,
+#asobi div.header .headBox,
+#admin div.header .headBox{
+	margin:0 auto;
+	width:970px;
+	height:148px;
+	position:relative;
+	z-index:200;
+}
+
+/*  top logo 
+------------------------------------------*/
+
+div.header h1 {
+	margin:0;
+	width:305px;
+	height:51px;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+div.header h1 a.portal {
+	width:305px;
+	height:51px;
+	background:url(../img/logo_swuare.jpg) no-repeat;
+	display:block;
+}
+
+/*  site logo 
+------------------------------------------*/
+
+div.header .newgin, div.header .excite {
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+div.header .newgin {
+	width:110px;
+	height:47px;
+	position:absolute;
+	top:20px;
+	right:110px;
+}
+div.header a.newgin {
+	width:110px;
+	height:47px;
+	background:url(../img/btn_logo.jpg) no-repeat;
+	display:block;
+}
+div.header .excite {
+	width:96px;
+	height:47px;
+	position:absolute;
+	top:20px;
+	right:0;
+}
+div.header a.excite {
+	width:96px;
+	height:47px;
+	background:url(../img/btn_logo.jpg) no-repeat;
+	background-position: -126px 0;
+	display:block;
+}
+
+/*  tab navi 
+------------------------------------------*/
+
+div.header .tab {
+	width:215px;
+	position:absolute;
+	left:0;
+	bottom:11px;
+}
+div.header a.asobi, div.header a.majime {
+	width:107px;
+	height:46px;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+	float:left;
+}
+div.header a.asobi {
+	margin-right:1px;
+	width:107px;
+	height:46px;
+	background:url(../img/navi_tab.jpg) no-repeat;
+	display:block;
+}
+div.header a.asobi:hover,
+#asobi div.header a.asobi {
+	width:107px;
+	height:46px;
+	background-position:0 -46px;
+	display:block;
+}
+div.header a.majime {
+	width:107px;
+	height:46px;
+	background:url(../img/navi_tab.jpg) no-repeat;
+	background-position:-108px 0;
+	display:block;
+}
+div.header a:hover.majime,
+#majime div.header a.majime {
+	width:107px;
+	height:46px;
+	background-position:-108px -46px;
+	display:block;
+}
+
+/*  user name 
+------------------------------------------*/
+
+div.header div.userName {
+	font-size:14px;
+	position:absolute;
+	bottom:20px;
+	left:240px;
+}
+div.header div.userName span { font-weight:bold;}
+
+/*  top navi 
+------------------------------------------*/
+
+div.header .navi {
+	height:30px;
+	position:absolute;
+	right:0;
+	bottom:11px;
+	z-index:2;
+}
+div.header .navi .btn-group {
+	margin:0;
+	width:120px;
+	height:30px;
+	float:left;
+}
+div.header .navi a.admin, div.header .navi a.howto, div.header .navi a.logout {
+	width:120px;
+	height:30px;
+	background:url(../img/navi_btn01.jpg) no-repeat;
+	color:#FFF;
+	display:block;
+	font-size:0;
+	text-indent:-9999px;
+	float:left;
+}
+div.header .navi a.admin { background-position:0 0;}
+div.header .navi a.howto { background-position:-120px 0;}
+div.header .navi a.logout { background-position:-240px 0;}
+
+div.header .navi a.admin:hover,
+#admin div.header .navi a.admin { background-position:0 -30px;}
+div.header .navi a.howto:hover { background-position:-120px -30px;}
+div.header .navi a.logout:hover { background-position:-240px -30px;}
+
+div.header .navi ul a { text-decoration:none;}
+
+div.header .navi .dropdownMenu {
+	background:#FFF;
+	border:3px #ccc solid;
+	list-style: none;
+	min-width: 170px;
+	top: 100%;
+	visibility:hidden;
+	/*z-index: 9000;*/
+	position:static;
+	float: left;
+}
+
+div.header .navi .dropdownMenu li {
+	display:inline;
+	overflow:hidden;
+}
+div.header .navi .dropdownMenu li:first-child { border:0;}
+div.header .navi .dropdownMenu a {
+	padding:10px 10px 0 10px;
+	height:20px;
+	border-top:1px #CCC dotted;
+	display:block;
+	min-width: 150px;
+}
+div.header .navi .dropdownMenu a:hover { background:#FFDBA6; min-height:20px;}
+
+
+
+/* =======================================
+	container
+======================================= */
+
+.container {
+	margin-right:auto;
+	margin-left:auto;
+	padding-bottom:50px;
+	overflow:hidden;
+}
+
+.container, .navbar-static-top .container,
+.navbar-fixed-top .container, .navbar-fixed-bottom .container {
+	margin-top:15px;
+	padding-bottom:50px;
+	width:970px;
+}
+
+.single .container { padding-bottom:0;}
+
+/*  MVP banner 
+------------------------------------------*/
+
+.mvp {
+	margin:0 0 15px 0;
+	width:970px;
+	height:111px;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+a.mvp {
+	width:970px;
+	height:111px;
+	background:url(../img/bnr_mvp.png) no-repeat;
+	display:block;
+}
+
+/* =======================================
+	contents
+======================================= */
+
+.single .contents { margin-bottom:0;}
+.contents {
+	margin-bottom:50px;
+	overflow:hidden;
+}
+
+.login div.mainBox,
+.single div.mainBox,
+.secondary div.mainBox {
+	margin:0 auto;
+	width:764px;
+}
+.admin.secondary div.mainBox {
+	margin:0 20px 0 0;
+	width:764px;
+	float:left;
+}
+
+
+/*//////////  box //////////*/
+
+.login .box,
+.secondary .box {
+	margin:0 0 20px 0;
+	padding:20px;
+	width:724px;
+	background:#FFF;
+}
+.single .box {
+	margin:0 0 20px 0;
+	padding:10px 20px 20px 20px;
+	width:724px;
+	background:#FFF;
+	overflow:hidden;
+}
+.box .descriptionTxt {
+	margin:10px !important;
+	padding:10px;
+	background:#FFECD0;
+	border-radius: 7px;        /* CSS3草案 */  
+    -webkit-border-radius: 7px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 7px;   /* Firefox用 */ 
+	font-size:11px;
+	font-weight:normal;
+}
+#asobi .box.banner .descriptionTxt { background:#FFF; margin:5px 0 0 0 !important; border:1px #CCC solid;}
+
+.secondary div.mainBox .pageTtl {
+	padding:0 0 5px 0;
+	height:50px;
+	background:url(../../common/img/bg_topttl.jpg) repeat-x bottom;
+	overflow:hidden;
+}
+.login div.mainBox .pageTtl,
+.single div.mainBox .pageTtl{
+	padding:0 0 5px 0;
+	height:50px;
+	background:url(../img/bg_topttl.jpg) repeat-x bottom;
+	overflow:hidden;
+}
+
+.login div.mainBox .pageTtl h2,
+.secondary div.mainBox .pageTtl h2 {
+	padding:5px 0 0 0;
+	font-size:22px;
+	font-weight:bold;
+	float:left;
+}
+.single div.mainBox .pageTtl h1 {
+	margin:10px 0;
+	padding:5px 0 0 0;
+	font-size:22px;
+	font-weight:bold;
+	line-height:1.4em;
+	float:left;
+}
+
+.login div.mainBox .pageTtl a,
+.single div.mainBox .pageTtl a,
+.secondary div.mainBox .pageTtl a {
+	margin:8px 0 0 5px;
+	display:block;
+	float:right;
+}
+
+
+
+/*  table 
+------------------------------------------*/
+
+table.list th { color:#CA0210; text-align:center; vertical-align:middle;}
+table.topics .td-date { width:120px;}
+table.topics .td-text { width:590px;}
+
+/*  button 
+------------------------------------------*/
+
+.miniBtn {
+	width:60px;
+	height:18px;
+	background:url(../../common/img/btn_regist.png) no-repeat;
+	display:block;
+	position:absolute;
+}
+.miniBtn.regist01 /*--- マジメ登録ボタン ---*/ { background-position:0 0;}
+.miniBtn.regist02 /*--- あそび登録ボタン ---*/ { background-position:0 -72px;}
+.miniBtn.submit01 /*--- マジメ投稿ボタン ---*/ { background-position:0 -18px;}
+.miniBtn.submit02 /*--- あそび投稿ボタン ---*/ { background-position:0 -54px;}
+.miniBtn.create /*--- マジメ作成ボタン ---*/ { background-position:0 -36px;}
+
+.middleBtn {
+	width:100px;
+	height:18px;
+	background:url(../../common/img/btn_view.png) no-repeat;
+	background-position:0 0;
+	color:#FFF;
+	display:block;
+	font-size:0;
+	text-indent:-9999px;
+}
+.middleBtn.listview /*--- 一覧を見るボタン ---*/ { background-position:0 0;}
+.middleBtn.moreview /*--- さらに見るボタン ---*/ { background-position:0 -18px;}
+.middleBtn.detailview /*--- 詳細を見るボタン ---*/ { background-position:0 -36px;}
+
+
+/*//////////  btn //////////*/
+
+.btn-important {
+    padding:5px 7px;
+	background:url(../../common/img/btn_important.jpg) repeat-x top;
+	border:1px #A21010 solid;
+    color:#FFF;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+}
+.btn-correct {
+    padding:5px 7px;
+	background:url(../../common/img/btn_correct.jpg) repeat-x top;
+	border:1px #CCC solid;
+    color:#9B9B9B;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+}
+.btn-work {
+    padding:5px 7px;
+	background:url(../../common/img/btn_work.jpg) repeat-x top;
+	border:1px #424242 solid;
+    color:#FFF;
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+}
+
+
+
+
+/*  span 
+------------------------------------------*/
+
+span.date { color:#CA0110;}
+
+
+/* =======================================
+	page top
+======================================= */
+
+#page-top {
+	font-size:12px;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	z-index:500;
+}
+#page-top a {
+	padding:15px 0;
+	width:80px;
+	/*background-image: -moz-linear-gradient(top, rgba(255,68,53,1) 10%, rgba(202,2,16,1) 35%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,68,53,1)), to(rgba(202,2,16,1)));*/
+	background:#CA0210;
+	border-radius:5px;
+	-pie-border-radius:5px 5px 5px 5px;
+	color:#fff;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	/*behavior: url(/test_newgin/majime/css/PIE.htc);*/
+}
+#page-top a:hover {
+	background:#999;
+	text-decoration:none;
+}
+
+
+/* =======================================
+	footer
+======================================= */
+
+.footer {
+	margin:0;
+	width:100%;
+	height:50px;
+	background:#CA0210;
+	overflow:hidden;
+	position:absolute;
+    bottom:0;
+}
+.footer p {
+	margin:15px 0;
+	color:#FFF;
+	text-align:center;
+}
+
+
+
+/* =======================================
+	secondary detail page
+======================================= */
+
+div.detail {
+	font-size:14px;
+}
+div.detail h4,
+div.detail .attachements .title {
+	margin:0 0 10px 0;
+	padding:0 0 7px 0;
+	border-bottom:3px #CCC solid;
+	font-size:14px;
+	font-weight:bold;
+}
+
+div.postsDate { margin-bottom:10px; font-weight:bold;}
+div.postsDate .time { margin-left:10px; color:#CA0210;}
+div.detailTtl {
+	padding:10px;
+	background:#FFDBA6;
+	overflow:hidden;
+}
+div.detailTtl span { display:block; margin-top:2px; float:left;}
+div.detailTtl span.date { margin-right:15px;}
+div.detailTtl h3 { margin:1px 0 0 0; font-size:16px; font-weight:bold; float:left;}
+div.detailTtl p.area { font-size:12px; float:right;}
+
+div.detail .cnt-box {
+	padding-bottom:20px;
+	margin:15px 0;
+	border-bottom:1px #CCC dashed;
+	overflow:hidden;
+}
+/* photo */
+div.detail .photo { overflow:hidden;}
+div.detail .photo .imgbox { margin-left:20px; margin-bottom:5px; float:left; width:228px;}
+div.detail .photo .imgbox:first-child{ margin-left:0;}
+div.detail .photo .imgbox p { width:228px;}
+
+html[xmlns*=""]:root #thisisid { /*safari*/
+
+}
+
+.control-label { width:150px;}
+
+/* form last btn */
+div.detail .form-last-btn { overflow:hidden;}
+div.detail .form-last-btn .btn80 { margin:0 auto; width:80px;}
+div.detail .form-last-btn .btn90 { margin:0 auto; width:90px;}
+div.detail .form-last-btn .btn170 { margin:0 auto; width:170px;}
+div.detail .form-last-btn .btn200 { margin:0 auto; width:202px;}
+
+/* form last btn */
+span.checkDelete {
+	margin:0;
+	padding:10px 0 0 0;
+	color:#CA0210;
+	display:block;
+	overflow:hidden;
+}
+span.checkDelete input {
+	margin:0 5px 0 0;
+	padding:0;
+	width:1em;
+	height:1em;
+	vertical-align:middle;
+}
+
+.button_wrapper {
+    position: relative;
+}
+.button_wrapper .button {
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    line-height: 150px;
+    text-align: center;
+    background: #666;
+}
+.button_wrapper input {
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    opacity:0;
+    position: absolute;
+    cursor: pointer;
+}
+
+/*////////// icon //////////*/
+
+.secondary .ico_word, .secondary .ico_pdf,
+.secondary .ico_excel, .secondary .ico_ppt,
+.secondary .ico_zip, .secondary .ico_image {
+	margin-right:px;
+	padding:0px 0 0 20px;
+	height:16px;
+}
+.secondary .ico_word { background:url(../../common/img/ico_word.gif) no-repeat;}
+.secondary .ico_pdf { background:url(../../common/img/ico_pdf.gif) no-repeat;}
+.secondary .ico_excel { background:url(../../common/img/ico_excel.gif) no-repeat;}
+.secondary .ico_ppt { background:url(../../common/img/ico_ppt.gif) no-repeat;}
+.secondary .ico_zip { background:url(../../common/img/ico_zip.gif) no-repeat;}
+.secondary .ico_image { background:url(../../common/img/ico_image.gif) no-repeat;}
+

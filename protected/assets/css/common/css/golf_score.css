@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  ゴルフ年間スコアランキング
+ ---------------------------------------------- */
+
+
+/** 一覧表示 **/
+.golf_score .td-rank  { width: 50px; text-align: center; }
+.golf_score .td-name  { width: 140px; }
+.golf_score .td-couse { width: auto; }
+.golf_score .td-score { width: 80px; text-align: center; }
+
+
+/** 順位表示 **/
+.td-rank .ranking.rank1,
+.td-rank .ranking.rank2,
+.td-rank .ranking.rank3 {
+	width: 30px;
+	height: 35px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+
+.td-rank .ranking.rank1 { background: url(../img/ico_rank1.jpg) no-repeat; }
+.td-rank .ranking.rank2 { background: url(../img/ico_rank2.jpg) no-repeat; }
+.td-rank .ranking.rank3 { background: url(../img/ico_rank3.jpg) no-repeat; }
+
+/** コース名・日付表示 **/
+.td-couse .date {
+	font-size: 10px;
+	color: #999999;
+}

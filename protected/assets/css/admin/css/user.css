@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**-----------------------------------------------------
+ * 	ユーザー管理固有CSS
+ -----------------------------------------------------*/
+
+/**
+ * 	共通
+ */
+.user div.detail .textBox.boxL select {
+	width: auto;
+}
+
+/* 日付プルダウン */
+div.detail .textBox select.input-date-year {
+	width: 70px;
+}
+div.detail .textBox select.input-date-month,
+div.detail .textBox select.input-date-day {
+	width: 60px;
+}
+
+/**
+ * 	所属テーブル
+ */
+.baseDetailBox table{
+	width:720px;
+	margin:0 auto;
+	margin-bottom:30px;
+	}
+
+.baseDetailBox table th{
+	width:130px;
+	font-weight:normal;
+	padding:5px;
+	text-align:right;
+	}	
+
+.baseDetailBox table td{
+	width:auto;
+	font-weight:normal;
+	padding:5px;
+	padding-left:20px;
+	}
+
+.baseDetailBox table td span{
+	padding-right:10px;
+	}	
+
+.admin.secondary .box .initPassChangeMsg { /* 2014-03-11 追加 */
+	color:#ff0000;
+	font-weight:bold;
+	font-size: 14px;
+}

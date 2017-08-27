@@ -1,0 +1,146 @@
+<?php
+class Base_newsWidget extends CWidget
+{
+	public function init()
+	{
+	}
+
+	public function run()
+	{
+            
+            
+
+		$week= date("W", strtotime(date("Y-m-d H:i:s")));
+		
+		$sql ='select base_id from base_news where WEEKOFYEAR(pickup_date)='.$week.'  ORDER BY pickup_date DESC LIMIT 1'; 
+		$connection =Yii::app()->db; 
+		$command	=$connection->createCommand($sql); 
+		$bases 	    =$command->queryAll(); 
+		
+		
+		if(FunctionCommon::isViewFunction("base_news")==true)
+		{
+			
+			
+			foreach($bases as $item)
+			{
+				if(!is_null($item["base_id"]) && !empty($item["base_id"]))
+				{
+					 
+					$base = Yii::app()->db->createCommand()
+						->select(array(
+							'unit.id',
+							'unit.unit_name',
+							'unit.branch_id',
+							'branch.branch_name',
+							'base.company_name',
+							'unit.catchphrase',
+							'unit.attachment1',
+							'unit.attachment2',
+							'unit.attachment3',
+							'unit.introduction'
+								)
+						)
+						->from('unit') 
+						->join('branch', 'branch.id=unit.branch_id')
+						->join('base', 'base.id=branch.base_id')
+						->where("unit.active_flag=1 and unit.id=".$item['base_id']."")
+						->queryRow();
+				?>
+                	<a style="text-decoration:none;" href="<?php echo Yii::app()->request->baseUrl; ?>/majimemember/detail/?id_unit=<?php echo $base['id']; ?>&id_branch=<?php echo $base['branch_id']; ?>">
+                    <?php 
+					echo '<h3>'.$base['company_name'].'&nbsp;'.$base['branch_name'].'&nbsp;'.$base['unit_name'].'</h3>';
+					?>
+                    </a>
+                <?php		
+					echo '<div class="gray">';
+                                        $function_common=new FunctionCommon();                                
+					echo '<h4>'.$function_common->crop($base['catchphrase'], 26).'</h4>';
+                                        
+                                        if($base['attachment1']!=""||$base['attachment2']!=""||$base['attachment3']!=""){
+                                            echo '<ul>';
+                                            echo '<li>';
+                                        }
+					if(!empty($base['attachment1']))
+					{
+						$host_file_attachment_ext = Upload_file_common::getFileNameExtension(Upload_file_common::getFileNameFromValueInDatabase($base['attachment1']));
+                                     	
+						if (in_array($host_file_attachment_ext, Constants::$imgExtention)&&file_exists(Yii::getPathOfAlias('webroot').$base['attachment1'])) {
+							$filename = ltrim($base['attachment1'], '/');
+                                                        $thumnail_file_path=  FunctionCommon::getFilenameInThumnail($base['attachment1']);    
+                                                        $temp= explode(".", $thumnail_file_path);
+                                                        $new_thumnail_file_path=$temp[0];
+                                                        for($i=1,$n=count($temp)-1;$i<$n;$i++){
+                                                            $new_thumnail_file_path.='.'.$temp[$i];
+                                                        }
+                                                        $new_thumnail_file_path.='_widget'.'.'.$temp[count($temp)-1];
+                                                        $thumnail_file_path=ltrim($new_thumnail_file_path, '/'); 
+                                                        //list($width, $height) = getimagesize($thumnail_file_path);
+                                                        if(file_exists(Yii::getPathOfAlias('webroot').$new_thumnail_file_path)){
+                                                            printf(' <a  style="width:101px; height:75px; float:left;  margin-right: 15px;"><img style="width:101px;height:75px;" src="'.Yii::app()->request->baseUrl.'/'.$thumnail_file_path.'"/></a>');            
+                                                        }
+							
+
+						
+					}
+					if(!empty($base['attachment2']))
+					{
+						$host_file_attachment_ext = Upload_file_common::getFileNameExtension(Upload_file_common::getFileNameFromValueInDatabase($base['attachment2']));
+                                     	
+						if (in_array($host_file_attachment_ext, Constants::$imgExtention)&&file_exists(Yii::getPathOfAlias('webroot').$base['attachment2'])) {
+							$filename = ltrim($base['attachment2'], '/');
+							$thumnail_file_path=  FunctionCommon::getFilenameInThumnail($base['attachment2']);    
+                                                        $temp= explode(".", $thumnail_file_path);
+                                                        $new_thumnail_file_path=$temp[0];
+                                                        for($i=1,$n=count($temp)-1;$i<$n;$i++){
+                                                            $new_thumnail_file_path.='.'.$temp[$i];
+                                                        }
+                                                        $new_thumnail_file_path.='_widget'.'.'.$temp[count($temp)-1];
+                                                        $thumnail_file_path=ltrim($new_thumnail_file_path, '/'); 
+                                                        //list($width, $height) = getimagesize($thumnail_file_path);
+                                                        if(file_exists(Yii::getPathOfAlias('webroot').$new_thumnail_file_path)){
+                                                            printf(' <a  style="width:101px; height:75px; float:left;  margin-right: 15px;"><img style="width:101px;height:75px;" src="'.Yii::app()->request->baseUrl.'/'.$thumnail_file_path.'"/></a>');            
+                                                        }
+
+							} 	
+					}
+					if(!empty($base['attachment3']))
+					{
+						$host_file_attachment_ext = Upload_file_common::getFileNameExtension(Upload_file_common::getFileNameFromValueInDatabase($base['attachment3']));
+                                     	
+						if (in_array($host_file_attachment_ext, Constants::$imgExtention)&&file_exists(Yii::getPathOfAlias('webroot').$base['attachment3'])) {
+							$filename = ltrim($base['attachment3'], '/');
+							$thumnail_file_path=  FunctionCommon::getFilenameInThumnail($base['attachment3']);    
+                                                        $temp= explode(".", $thumnail_file_path);
+                                                        $new_thumnail_file_path=$temp[0];
+                                                        for($i=1,$n=count($temp)-1;$i<$n;$i++){
+                                                            $new_thumnail_file_path.='.'.$temp[$i];
+                                                        }
+                                                        $new_thumnail_file_path.='_widget'.'.'.$temp[count($temp)-1];
+                                                        $thumnail_file_path=ltrim($new_thumnail_file_path, '/');            
+                                                        //list($width, $height) = getimagesize($thumnail_file_path);
+                                                        if(file_exists(Yii::getPathOfAlias('webroot').$new_thumnail_file_path)){
+                                                            printf(' <a  style="width:101px; height:75px; float:left;  margin-right: 15px;"><img style="width:101px;height:75px;" src="'.Yii::app()->request->baseUrl.'/'.$thumnail_file_path.'"/></a>');            
+                                                        }
+
+							} 	
+					}
+					
+				}
+                                if($base['attachment1']!=""||$base['attachment2']!=""||$base['attachment3']!=""){
+                                            echo '</li>';
+                                echo '</ul>';
+                                        }
+				
+                                echo '</div>';
+				echo '<p>'.(!empty($base['introduction']) ? FunctionCommon::crop(FunctionCommon::url_henkan($base['introduction']),68):'').'</p>';
+                                
+			
+			}
+			
+		}
+		
+	}
+}
+}
+                      

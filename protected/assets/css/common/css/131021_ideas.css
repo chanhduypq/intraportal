@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  製品アイデア投稿広場
+ ---------------------------------------------- */
+
+.ideas .table.topics tr {
+	position:relative;
+}
+
+.ideas div.evaluate {
+	margin:10px 0 20px 0;
+	height:20px;
+	font-size:12px;
+	position:absolute;
+	right:270px;
+}
+.ideas div.evaluate p.rating {
+	margin:0 5px 0 0;
+	width:170px;
+	text-align:right;
+	float:left;
+}
+.ideas div.evaluate p.comment {
+	margin:0;
+	width:130px;
+	text-align:right;
+	float:left;
+}
+
+.ideas span.star {
+	margin:3px 0 0 0;
+	width:60px;
+	height:12px;
+	background:url(../img/evaluate_star.gif) no-repeat 0 0;
+	display: inline-block;
+}
+.ideas span.star.star0 { background-position:-58px 0px; }
+.ideas span.star.star1 { background-position:-46px 0px; }
+.ideas span.star.star2 { background-position:-36px 0px; }
+.ideas span.star.star3 { background-position:-24px 0px; }
+.ideas span.star.star4 { background-position:-12px 0px; }
+.ideas span.star.star5 { background-position: 0px 0px; }
+
+.ideas div.detail .cnt-box { margin-top:50px;}
+

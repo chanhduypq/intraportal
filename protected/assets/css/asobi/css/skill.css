@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  資格取得・スキルアップ！
+ ---------------------------------------------- */
+
+#asobi .skill .index table.list .skill-item .title {
+	font-size: 14px;
+}
+#asobi .skill .index table.list .skill-item .comment {
+	font-size: 12px;
+	color: #000000;
+}
+#asobi .skill .index table.list .skill-item .attached-file a {
+	font-size: 10px;
+	color: #999999;
+}
+#asobi .skill .index .category_name {
+	font-weight: bold ;
+	border-left: 10px solid #E60213;
+	padding-left: 10px;
+}
+#asobi .skill .index .category-navi {
+	position: relative;
+	left: 300px;
+	width: 400px;
+	margin-bottom: 8px;
+	margin-top: -6px;
+}

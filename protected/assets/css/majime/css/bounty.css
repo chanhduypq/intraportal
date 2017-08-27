@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  懸賞金付き募集コンテンツ
+ ---------------------------------------------- */
+
+#majime .wrap.celebrate table .td-date { width:100px;}
+#majime .wrap.celebrate table .td-title { width:444px;}
+#majime .wrap.celebrate table .td-deadline { width:100px;}
+#majime .wrap.celebrate table .td-posts { width:80px;}
+
+#majime .wrap.celebrate table .td-mon { width:230px;}
+#majime .wrap.celebrate table .td-ded { width:230px;}
+#majime .wrap.celebrate table .td-pos { width:230px;}

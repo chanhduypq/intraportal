@@ -1,0 +1,17 @@
+ ?????  :https://mysql.kagoya.com/o3302-428
+db?:newgin_square
+user:newgin_square
+pass:XWzGd1koOkHg
+server name:o3302-428.kagoya.net
+
+SELECT * FROM bbs_response WHERE content LIKE '%https://www.newgin-square.com/asobihobby_itd%';
+SELECT * FROM bounty_apply WHERE applied_content LIKE '%https://www.newgin-square.com/asobihobby_itd%';
+SELECT * FROM enquete_choice WHERE answer_content LIKE '%https://www.newgin-square.com/asobihobby_itd%';
+SELECT * FROM golf_news_comment WHERE comment LIKE '%https://www.newgin-square.com/asobihobby_itd%';
+SELECT * FROM hobby_new_comment WHERE comment LIKE '%https://www.newgin-square.com/asobihobby_itd%';
+SELECT * FROM ideas_comment WHERE comment LIKE '%https://www.newgin-square.com/asobihobby_itd%';
+SELECT * FROM pride_comment WHERE comment LIKE '%https://www.newgin-square.com/asobihobby_itd%';
+
+<b>tuetc</b>
+https://google.com
+https://dev.twitter.com/docs/api/1.1/get/search/tweets

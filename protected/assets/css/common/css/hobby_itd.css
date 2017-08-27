@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  趣味・サークル広場　サークル紹介
+ ---------------------------------------------- */
+
+/**
+ * 	一覧(index.html)
+ */
+.hobby_itd .index table th {
+	text-align: center;
+}
+.hobby_itd .index table tr td.td-picture {
+	width : 100px;
+	text-align: center;
+}
+.hobby_itd .index table tr td.td-text .title {
+	font-weight: bold;
+	color:#CA0010;
+	font-size: 12px;
+	margin-bottom: 4px;
+}
+.hobby_itd .index table tr td.td-text .read {
+}
+
+
+/**
+ * 	詳細（detail.html)
+ */
+.hobby_itd .detail div.picture a {
+	display:block;
+	margin: 20px auto;       
+}
+

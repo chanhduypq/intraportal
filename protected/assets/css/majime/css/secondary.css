@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::
+	majime - secondary
+::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@import "twitter.css";		/* Twitterキャッチ！ */
+@import "blogc.css";		/* ブログキャッチ！ */
+@import "report.css";		/* リアルタイム社内報告 */
+@import "enquete.css";		/* みんなのアンケートBOX */
+@import "../../common/css/ideas.css";		/* 製品アイデア投稿広場 */
+@import "ideas.css";		/* 製品アイデア投稿広場 */
+@import "bbs.css";			/*--- ニューギン掲示板 ---*/
+@import "bounty.css";		/*--- 懸賞金付き募集コンテンツ ---*/
+
+@import "celebrate.css";	/*--- お祝い ---*/
+@import "member.css";	/*--- 拠点＆メンバー紹介 ---*/
+@import "soumu_jinji.css";	/*--- 総務からのお知らせ：人事情報 ---*/
+
+
+/*--- トピックス‐確認 ---*/
+.topics.confirm div.mainBox .control-group p { margin-top:5px;}
+

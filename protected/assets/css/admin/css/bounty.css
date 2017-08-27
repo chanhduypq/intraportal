@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  リアルタイム社内報告
+ ---------------------------------------------- */
+
+.bounty .bounty-state p {
+	float: left;
+	margin-top: 10px;
+}
+.bounty .bounty-state .deadline {
+	width: 180px;
+}
+.bounty .bounty-state .subscription {
+	width: 120px;
+}

@@ -1,0 +1,594 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* =======================================
+	asobi - toppage
+======================================= */
+
+/*  common 
+----------------------------------------------------------------------------------*/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background:url(../img/bg_m.gif);
+	font-family: 'Hiragino Kaku Gothic ProN', Meiryo, 'MS PGothic', Sans-serif;
+    font-size: 12px;
+    line-height: 1.3;
+    font-weight: normal;
+	word-break: break-all;
+}
+
+
+/*////////// h2 //////////*/
+
+.asobi .ttl h2 {
+	margin:0;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+
+/*//////////  box //////////*/
+
+.asobi .sideL .box, .asobi .cntC .box {
+	margin:0 0 20px 0;
+	background:#FFF;
+	overflow:hidden;
+	position:relative;
+}
+.asobi .sideR .box {
+	margin:0 0 20px 0;
+	overflow:hidden;
+	position:relative;
+}
+
+.asobi .cntC .box .descriptionTxt {
+	margin:10px 10px 8px 10px;
+	padding:10px;
+	background:#F7CFCF;
+	border-radius: 7px;        /* CSS3草案 */  
+    -webkit-border-radius: 7px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 7px;   /* Firefox用 */ 
+	font-size:11px;
+}
+
+/*//////////  button //////////*/
+
+.asobi .sideL .miniBtn { top:20px;	right:58px;}
+.asobi .cntC .miniBtn { top:12px;	right:10px;}
+
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*  sideL 
+----------------------------------------------------------------------------------*/
+
+.asobi .sideL {
+	margin:0 25px 0 0;
+	width:350px;
+	float:left;
+}
+
+
+/*////////// title //////////*/
+
+.asobi .sideL .box .ttl {
+	margin:0 0 10px 0;
+	width:350px;
+	height:45px;
+	background:url(../img/ttl_side_l.jpg) no-repeat;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+.asobi .sideL .box.topics .ttl /*--- トピックス ---*/ { background-position:0 0;}
+.asobi .sideL .box.newproduct .ttl /*--- 新商品情報 ---*/ { background-position:0 -45px;}
+.asobi .sideL .box.inspection .ttl /*--- 機種総評＆検証 ---*/ { background-position:0 -90px;}
+.asobi .sideL .box.claim .ttl /*--- お客様クレーム ---*/ { background-position:0 -135px;}
+.asobi .sideL .box.trouble .ttl /*--- トラブル＆不正情報 ---*/ { background-position:0 -180px;}
+.asobi .sideL .box.rival .ttl /*--- 競合情報 ---*/ { background-position:0 -225px;}
+
+
+/*////////// list //////////*/
+
+.asobi .sideL .box ul { margin:0 auto 8px auto; width:330px;}
+.asobi .sideL .box ul li {
+	margin:0 0 5px 0;
+}
+.asobi .sideL .box ul li span {
+	margin:0 5px 0 0;
+	width:64px;
+	font-weight:bold;
+}
+
+.asobi .sideL .box.column2 ul /*--- トピックス/新商品情報 ---*/ {
+	margin:0 13px 8px 10px;
+	width:217px;
+	float:left;
+}
+.asobi .sideL .box.column2 img {
+	margin-right:10px;
+	width:100px;
+	float:right;
+}
+
+
+/*////////// icon //////////*/
+
+/*--- 機種総評＆検証 アイコン ---*/
+.asobi .sideL .box ul a.word,
+.asobi .sideL .box ul a.pdf {
+	margin-right:10px;
+	padding:2px 0 0 25px;
+	height:16px;
+}
+.asobi .sideL .box ul a.word { background:url(../img/ico_word.gif) no-repeat;}
+.asobi .sideL .box ul a.pdf { background:url(../img/ico_pdf.gif) no-repeat;}
+
+
+/*////////// button //////////*/
+
+/*--- 一覧を見るボタン ---*/
+.asobi .sideL .box .listBtn {
+	margin:0 auto;
+	padding:10px 0;
+	width:330px;
+	border-top:1px #CCC dashed;
+	overflow:hidden;
+}
+
+/*--- 一覧を見るボタン ---*/
+.asobi .sideL .box.twitter .listBtn,
+.asobi .sideL .box.blog .listBtn {
+	margin:0 auto;
+	padding:0;
+	width:330px;
+	border:0;
+	overflow:hidden;
+}
+
+
+/*////////// box //////////*/
+
+/*--- Twitterキャッチ / ブログキャッチ ---*/
+
+.asobi .sideL .box.twitter,
+.asobi .sideL .box.blog {
+	background: none repeat scroll 0 0 #FFF;
+	border:5px #FF9900 solid;
+    border-radius: 7px 7px 7px 7px;
+    font-size:12px;
+    padding:10px;
+}
+
+.asobi .sideL .box.twitter ul,
+.asobi .sideL .box.blog ul {
+	margin:0;
+	width:320px;
+}
+.asobi .sideL .box.twitter li,
+.asobi .sideL .box.blog li {
+	margin-bottom:10px;
+	padding:0 0 7px 0;
+	width:320px;
+	border-bottom:1px #FF9900 dashed;
+}
+
+.asobi .sideL .box.twitter li h2,
+.asobi .sideL .box.blog li h2 {
+	margin:0;
+	padding:7px 0 0 40px;
+	height:22px;
+	background:url(../img/ico_twt_blg.gif) no-repeat;
+	font-size:16px;
+	font-weight:bold;
+}
+.asobi .sideL .box.twitter li h2 { background-position:0 0;}
+.asobi .sideL .box.blog li h2 { background-position:0 -29px;}
+
+/*--- Twitterキャッチ list ---*/
+.asobi .sideL .box.twitter li:last-child {	padding:0;}
+.asobi .sideL .box.twitter li span { width:320px; display:block; clear:both;}
+.asobi .sideL .box.twitter li p { margin:0 0 10px 0;}
+
+
+/*--- Newgin square 管理メニュー / 各サービスへのリンク ---*/
+.asobi .sideL .box.portalMenu {
+	background:#FFF;
+	border:2px #666 solid;
+}
+.asobi .sideL .box.portalMenu h2 {
+	margin:0 0 10px 0;
+	padding:10px 15px;
+	height:15px;
+	background:#666;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+}
+.asobi .sideL .box.portalMenu li { margin:0 0 5px 0; overflow:hidden;}
+.asobi .sideL .box.portalMenu li p {
+	padding:0 0 0 13px;
+	background:url(../../common/img/ico_arrow_small.png) no-repeat 0 5px;
+	line-height:1.4em;
+	float:left;
+}
+.asobi .sideL .box.portalMenu ul.serviceLink li p { margin-right:10px; width:145px;}
+.asobi .sideL .box.portalMenu ul.serviceLink li p:last-child { margin-right:0;}
+
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*  centerBox
+----------------------------------------------------------------------------------*/
+
+.asobi .cntC {
+	margin:0 25px 0 0;
+	width:384px;
+	float:left;
+}
+
+
+/*////////// message box //////////*/
+
+.asobi .msgBox {
+	margin:0 0 20px 0;
+	padding:65px 20px 20px 20px;
+	width:344px;
+	height:109px;
+	background:url(../img/box_ceo_msg.gif) no-repeat;
+}
+.asobi .msgBox h3 {
+	margin-top:0;
+	margin-bottom:5px;
+	color:#D70112;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+/*////////// button //////////*/
+
+/*--- 社長メッセージ ---*/
+.asobi .msgBox .listBtn {
+	margin:20px 0 0 0;
+	overflow:hidden;
+}
+
+/*////////// title //////////*/
+
+.asobi .cntC .box .ttl {
+	margin:0 0 10px 0;
+	width:384px;
+	height:41px;
+	background:url(../img/ttl_center.jpg) no-repeat;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+.asobi .cntC .box.management .ttl /*--- 経営陣(役員)との意見交換箱 ---*/ { background-position:0 0;}
+.asobi .cntC .box.realtime .ttl /*--- リアルタイム社内報告 ---*/ { background-position:0 -41px;}
+.asobi .cntC .box.question .ttl /*--- みんなのアンケートBOX ---*/ { background-position:0 -82px;}
+.asobi .cntC .box.idea .ttl /*--- 製品アイデア投稿広場 ---*/ { background-position:0 -123px;}
+.asobi .cntC .box.suggestion .ttl /*--- ニューギン目安箱・掲示板 ---*/ { background-position:0 -164px;}
+.asobi .cntC .box.prize .ttl /*--- 懸賞金付き募集コンテンツ ---*/ { background-position:0 -205px;}
+
+
+/*////////// list //////////*/
+
+.asobi .cntC .box ul {
+	margin:0 10px;
+	width:364px;
+}
+.asobi .cntC .box ul li {
+	margin:0 0 3px 0;
+	padding:5px 0;
+	border-bottom:1px #CCC dashed;
+	overflow:hidden;
+}
+.asobi .cntC .box ul li span {
+	margin:0 7px 0 0;
+	font-weight:bold;
+}
+.asobi .cntC .box ul p.count {
+	width:85px;
+	float:right;
+}
+
+/*--- 経営陣(役員)との意見交換箱 list ---*/
+.asobi .cntC .box.management ul li span {
+	margin:0 5px 0 0;
+	width:64px;
+	font-weight:bold;
+}
+
+/*--- リアルタイム社内報告 list ---*/
+.asobi .cntC .box.realtime ul li div { float:left;}
+.asobi .cntC .box.realtime ul li div.ico {
+	margin:0 10px 0 0;
+	width:36px;
+	height:27px;
+	background:url(../img/ico_realtime.gif) no-repeat;
+	color:#FFF;
+	display:block;
+	font-size:0;
+	text-indent:-9999px;
+}
+.asobi .cntC .box.realtime ul li div.ico.help { background-position:0 0;}
+.asobi .cntC .box.realtime ul li div.ico.eigyou { background-position:0 -27px;}
+.asobi .cntC .box.realtime ul li div.ico.uwasa { background-position:0 -54px;}
+.asobi .cntC .box.realtime ul li div.ico.seizou { background-position:0 -81px;}
+.asobi .cntC .box.realtime ul li div.ico.gyousei { background-position:0 -108px;}
+.asobi .cntC .box.realtime ul li div.ico.hall { background-position:0 -135px;}
+.asobi .cntC .box.realtime ul li div.ico.kaihatsu { background-position:0 -162px;}
+.asobi .cntC .box.realtime ul li div.ico.kyougou { background-position:0 -189px;}
+.asobi .cntC .box.realtime ul li div.ico.other { background-position:0 -216px;}
+
+.asobi .cntC .box.realtime ul li div p { margin:5px 0 0 0;}
+
+/*--- みんなのアンケートBOX list ---*/
+.asobi .cntC .box.question ul li div,
+.asobi .cntC .box.question ul li p { float:left;}
+.asobi .cntC .box.question ul li div.ico {
+	margin:0 10px 0 0;
+	width:36px;
+	height:27px;
+	background:url(../img/ico_question.gif) no-repeat;
+	color:#FFF;
+	display:block;
+	font-size:0;
+	text-indent:-9999px;
+}
+.asobi .cntC .box.question ul li div.ico.open { background-position:0 0;}
+.asobi .cntC .box.question ul li div.ico.syuuryou { background-position:0 -27px;}
+
+
+/*--- 製品アイデア投稿広場 list ---*/
+.asobi .cntC .box.idea ul { margin:0 0 8px 10px;}
+.asobi .cntC .box.idea ul li {
+	width:100%;
+	margin:0 0 5px 0;
+	float:left;
+}
+.asobi .cntC .box.idea ul li p a.threadName {
+	display:block;
+}
+.asobi .cntC .box.idea ul li div { margin-left:73px;}
+.asobi .cntC .box.idea ul li div p { margin:0 5px 0 0; float:left;}
+.asobi .cntC .box.idea ul li div p.comment {
+	margin:0 10px 0 0;
+	width:120px;
+}
+.asobi .cntC .box.idea ul li p.star {
+	margin:3px 0 0 0;
+	width:60px;
+	height:12px;
+	background:url(../../common/img/evaluate_star.gif) no-repeat 0 0;
+	background-position:-23px 0px;
+}
+
+ /*--- ニューギン目安箱・掲示板 list ---*/
+.asobi .cntC .box.suggestion ul li a {
+	margin:0 10px 0 0;
+}
+
+/*--- 懸賞金付き募集コンテンツ list ---*/
+.asobi .cntC .box.prize ul li div { margin-top:3px; margin-left:73px;}
+.asobi .cntC .box.prize ul li div p.comment {
+	margin:0 10px 0 0;
+	float:left;
+}
+
+
+/*////////// button //////////*/
+
+/*--- 一覧を見るボタン ---*/
+.asobi .cntC .box .listBtn {
+	margin:0 auto;
+	padding:5px 0 10px 0;
+	width:364px;
+	overflow:hidden;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*  sideR
+----------------------------------------------------------------------------------*/
+
+.asobi .sideR {
+	width:186px;
+	float:left;
+}
+
+/*////////// title //////////*/
+
+.asobi .sideR .box .ttl {
+	margin:0;
+	width:186x;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+
+ /*--- お祝い / ランキング ---*/ 
+.asobi .sideR .box.celebrate .ttl, .asobi .sideR .box.ranking .ttl{
+	height:60px; 
+	background:url(../img/ttl_side_r01.jpg) no-repeat;
+}
+.asobi .sideR .box.celebrate .ttl { background-position:0 0;}
+.asobi .sideR .box.ranking .ttl { height:60px; background-position:0 -60px;}
+
+/*--- 今日の社員ピックアップ / 今週の拠点からのNews! / 教えて総務さん！FAQ ---*/ 
+.asobi .sideR .box.pickup .ttl,
+.asobi .sideR .box.base-news .ttl,
+.asobi .sideR .box.faq .ttl{
+	height:40px;
+	background:url(../img/ttl_side_r02.jpg) no-repeat;
+}
+.asobi .sideR .box.pickup .ttl { background-position:0 0;}
+.asobi .sideR .box.base-news .ttl{ background-position:0 -40px;}
+.asobi .sideR .box.faq .ttl{ background-position:0 -80px;}
+
+/*--- 人事からのお知らせ / 総務からのお知らせ ---*/
+.asobi .sideR .box.jinji .ttl,
+.asobi .sideR .box.soumu .ttl {
+	height:31px; 
+	background:url(../img/ttl_side_r03.jpg) no-repeat;
+}
+.asobi .sideR .box.jinji .ttl { background-position:0 0;}
+.asobi .sideR .box.soumu .ttl { background-position:0 -31px;}
+
+
+/*////////// button //////////*/
+
+
+ /*--- 一覧を見るボタン ---*/
+.asobi .sideR .box .listBtn {
+	margin:0 auto;
+	padding:10px;
+	width:162px;
+	border-top:1px #CB0210 dashed;
+	overflow:hidden;
+}
+
+/*////////// list //////////*/
+
+/*--- dl orenge ---*/
+.asobi .sideR .box.orange dl { margin:0;}
+.asobi .sideR .box.orange dl dt {
+	padding:3px;
+	background:#FFDBA6;
+	color:#CB0210;
+	font-weight:bold;
+	text-align:center;
+}
+.asobi .sideR .box.orange dl dd {
+	margin:0;
+	padding:7px;
+	border-bottom:1px #CB0210 dashed;
+}
+.asobi .sideR .box.orange dl dd:last-child { border-bottom:none;}
+.asobi .sideR .box.orange dl dd p.area { font-weight:bold;}
+
+/*--- dl pink ---*/
+.asobi .sideR .box.pink dl { margin:0;}
+.asobi .sideR .box.pink dl dt {
+	padding:3px;
+	background:#F8CFCF;
+	color:#CB0210;
+	font-weight:bold;
+	text-align:center;
+}
+.asobi .sideR .box.pink dl dd {
+	margin:0;
+	padding:7px 7px 5px 7px;
+	border-bottom:1px #CB0210 dashed;
+}
+.asobi .sideR .box.pink dl dd:last-child { border-bottom:none; font-weight:normal;}
+
+
+/*--- お祝い list ---*/
+.asobi .sideR .box.celebrate div {
+	background:#FFF;
+	border:2px #FF6600 solid;
+}
+
+/*--- 今日の社員ピックアップ list ---*/
+.asobi .sideR .box.pickup li {
+	margin:5px 0;
+	overflow:hidden;
+}
+.asobi .sideR .box.pickup li div.face {
+	margin:0 10px 0 0;
+	width:70px;
+	background:#FFF;
+	border:1px #CCC solid;
+	text-align:center;
+	float:left;
+}
+.asobi .sideR .box.pickup li .subttl {
+	margin:5px 0;
+	padding:0 0 5px 0;
+	border-bottom:1px #999 dashed;
+	font-size:12px;
+	font-weight:bold;
+}
+
+/*--- 今週の拠点からのNews! list ---*/
+.asobi .sideR .box.base-news p {
+	margin:5px 0;
+	width:186px;
+	float:left;
+}
+.asobi .sideR .box.base-news span { margin:0 10px 0 0; float:left;}
+.asobi .sideR .box.base-news span.imgBox {
+	margin:0 0 9px 0;
+	width:70px;
+	background:#FFF;
+	border:1px #CCC solid;
+	display:block;
+	text-align:center;
+	clear:both;
+}
+
+/*--- ランキング list ---*/
+.asobi .sideR .box.ranking div {
+	background:#FFF;
+	border:2px #CB0210 solid;
+}
+.asobi .sideR .box.ranking dl dd { font-weight:bold;}
+.asobi .sideR .box.ranking dl dd ol { margin:auto 5px auto 22px; list-style-type:decimal;}
+.asobi .sideR .box.ranking dl dd ol li { margin-bottom:5px;}
+.asobi .sideR .box.ranking dl dd ol li span { display:block; line-height:1.2;}
+
+/*--- 拠点＆メンバー紹介 ---*/
+.asobi .sideR .box.map {
+	width:186px;
+	height:164px;
+	background:url(../img/ttl_side_r_map.jpg) no-repeat;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+.asobi .sideR .box.map a {
+	width:186px;
+	height:164px;
+	display:block;
+}
+
+/*--- 人事からのお知らせ list ---*/
+.asobi .sideR .box.jinji div {
+	background:#FFF;
+	border:2px #666 solid;
+}
+
+/*--- 総務からのお知らせ list ---*/
+.asobi .sideR .box.soumu div {
+	background:#FFF;
+	border:2px #CB0210 solid;
+}
+.asobi .sideR .box span.important {
+	margin:2px 7px 0 0;
+	width:27px;
+	height:15px;
+	background:url(../img/ico_information.gif) no-repeat;
+	color:#FFF;
+	display:block;
+	font-size:0;
+	text-indent:-9999px;
+	float:left;
+}
+
+/*--- 教えて総務さん！FAQ list ---*/
+.asobi .sideR .box.faq ul { margin:5px 0;}
+.asobi .sideR .box.faq li {
+	padding:0 10px 10px 13px;
+	background:url(../../common/img/ico_arrow_small.png) no-repeat 0 5px;
+	line-height:1.4em;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////*/

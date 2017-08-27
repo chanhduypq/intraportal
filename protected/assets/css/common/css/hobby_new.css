@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  趣味・サークルの広場 What'sNew
+ ---------------------------------------------- */
+
+/**
+ * 	一覧(index.html)
+ */
+.hobby_new .index table th {
+	text-align: center;
+}
+.hobby_new .index table tr td.td-category {
+	width : 160px;
+	text-align: center;
+}
+.hobby_new .index table tr td.td-date {
+	width : 100px;
+	text-align: center;
+}
+
+
+/**
+ * 	詳細（detail.html)
+ */
+.hobby_new .detail .category {
+	text-align: right;
+	margin-top: 2px;
+}
+.hobby_new .detail div.picture img {
+	display:block;
+	margin: 20px auto;
+}
+

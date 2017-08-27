@@ -1,0 +1,794 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* =======================================
+	asobi - toppage
+======================================= */
+@import "../../common/css/golf_news.css";
+
+/*  common 
+----------------------------------------------------------------------------------*/
+
+/*////////// h2 //////////*/
+
+.asobi .ttl h2,
+.asobi h2.ttl {
+	margin:0;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+
+/*////////// h2 //////////*/
+
+.asobi .box h3 { margin:0;}
+
+/*//////////  box //////////*/
+
+.asobi .sideL .box, .asobi .sideR .box {
+	margin:0 0 20px 0;
+	background:#FFF;
+	overflow:hidden;
+	position:relative;
+}
+
+/*//////////  button //////////*/
+
+.asobi .sideL .miniBtn { top:20px;	right:58px;}
+.asobi .sideR .miniBtn { top:0;	right:10px;}
+
+.hideBtn { display:none;}
+
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*  sideL 
+----------------------------------------------------------------------------------*/
+
+.asobi .sideL {
+	margin:0 25px 0 0;
+	width:186px;
+	float:left;
+}
+
+
+/*////////// title //////////*/
+
+.asobi .sideL .box .ttl {
+	width:186px;
+	height:31px;
+	background:url(../img/ttl_side_l.jpg) no-repeat;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+.asobi .sideL .box.news .ttl /*--- 更新情報 ---*/ { background-position:0 0;}
+.asobi .sideL .box.celebration .ttl /*--- お祝い報告 ---*/ { background-position:0 -31px;}
+.asobi .sideL .box.thanks .ttl /*--- 今月のありがとう ---*/ { background-position:0 -62px;}
+
+
+/*////////// .news //////////*/
+
+.asobi .sideL .box.news {
+	background:#FFF;
+	border:2px #CB0210 solid;
+}
+.asobi .sideL .box.news li {
+	margin:0;
+	padding:7px;
+	border-bottom:1px #CB0210 dashed;
+}
+
+
+/*////////// .celebration //////////*/
+
+.asobi .sideL .box.celebration {
+	background:#FFF;
+	border:2px #CB0210 solid;
+}
+
+.asobi .sideL .box.celebration ul { overflow:hidden;}
+.asobi .sideL .box.celebration li.listImg {
+	margin-right:10px;
+	width:70px;
+	float:left;
+}
+.asobi .sideL .box.celebration li.listPerson { float:left;}
+
+
+/*////////// .thanks //////////*/
+
+.asobi .sideL .box.thanks {
+	background:#FFF;
+	border:2px #FF6600 solid;
+}
+
+.asobi .sideL .box.thanks ul { 	margin:0; padding:7px 7px 5px 7px; overflow:hidden;}
+.asobi .sideL .box.thanks li.listImg {
+	margin:0 10px 5px 0;
+	width:70px;
+	height:52px;
+	float:left;
+}
+.asobi .sideL .box.thanks li.listPerson { width:80px; float:left;}
+.asobi .sideL .box.thanks li.listTxt {
+	margin:0 0 5px 0;
+	padding-bottom:5px;
+	width:170px;
+	border-bottom: 2px #FF6600 dotted;
+	clear:both;
+}
+
+/*--- dl pink ---*/
+.asobi .sideL .box.pink dl { margin:0;}
+.asobi .sideL .box.pink dl dt {
+	padding:3px;
+	background:#F8CFCF;
+	color:#CB0210;
+	font-weight:bold;
+	text-align:center;
+}
+.asobi .sideL .box.pink dl dd {
+	margin:0;
+	padding:7px 7px 5px 7px;
+	border-top:1px #CB0210 dashed;
+}
+.asobi .sideL .box.pink dl dt:first-child+dd { border-top:none; font-weight:normal;}
+
+
+/*////////// .banner //////////*/
+
+.asobi .sideL .box.banner { background-color:transparent;}
+.asobi .sideL .box.banner li {
+	margin-bottom:10px;
+	width:186px;
+}
+.asobi .sideL .box.banner li a {
+	width:186px;
+	height:55px;
+	background:url(../img/bnr_side_l.jpg) no-repeat;
+	color:#FFF;
+	display:block;
+	font-size:0;
+	text-indent:-9999px;
+
+}
+.asobi .sideL .box.banner li a.mot /*--- 今日の名言 ---*/ { background-position:0 0;}
+.asobi .sideL .box.banner li a.what_day /*--- 今日は何の日 ---*/ { background-position:0 -55px;}
+.asobi .sideL .box.banner li a.skill /*--- 資格取得・スキルアップ ---*/ { background-position:0 -110px;}
+.asobi .sideL .box.banner li a.link /*--- リンク集 ---*/ { background-position:0 -165px;}
+
+
+/*////////// button //////////*/
+
+/*--- 一覧を見るボタン ---*/
+.asobi .sideL .box .listBtn {
+	margin:0 auto;
+	padding:10px 0;
+	border-top:1px #CCC dashed;
+	overflow:hidden;
+}
+/*--- さらに見るボタン ---*/
+.asobi .sideL .box .moreBtn {
+	margin:0 auto;
+	padding:10px 0;
+	width:166px;
+	overflow:hidden;
+}
+
+.asobi .sideR .box .ttl .middleBtn {
+	position:absolute;
+	top:0;
+	right:80px;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+/*  sideR
+----------------------------------------------------------------------------------*/
+
+.asobi .sideR {
+	width:759px;
+	float:left;
+}
+
+.asobi .sideR .cntBox { margin:10px;}
+
+
+/*////////// title //////////*/
+
+.asobi .sideR .box .ttl {
+	margin:0;
+	width:759x;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+
+
+/*////////// .newranking //////////*/
+
+/*--- 最新ランキング ---*/ 
+.asobi .sideR .box.newranking.top {
+	margin:0 25px 20px 0;
+	padding:91px 0 0 0;
+	width:453px;
+	height:1%;
+	background:url(../img/ttl_ranking.png) no-repeat;
+	overflow:hidden;
+	position:relative;
+	float:left;
+}
+.asobi .sideR .box.newranking.top h2 {
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.asobi .sideR .box.newranking.top ul.rankingMenu {
+	width:279px;
+	height:19px;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+	position:absolute;
+	top:56px;
+	right:40px;
+}
+.asobi .sideR .box.newranking.top ul.rankingMenu li { float:left;}
+.asobi .sideR .box.newranking.top ul.rankingMenu li a {
+	width:93px;
+	height:19px;
+	background:url(../img/menu_ranking.png);
+	display:block;
+}
+
+.asobi .sideR .box.newranking.top ul.rankingMenu li.anime a { background-position:0 0;}
+.asobi .sideR .box.newranking.top ul.rankingMenu li.comic a { background-position:-93px 0;}
+.asobi .sideR .box.newranking.top ul.rankingMenu li.bunko a { background-position:-186px 0;}
+
+.asobi .sideR .box.newranking.top ul.rankingMenu li.anime a:hover,
+.asobi .sideR .box.newranking.top ul.rankingMenu li.anime a.active { background-position:0 -19px;}
+.asobi .sideR .box.newranking.top ul.rankingMenu li.comic a:hover,
+.asobi .sideR .box.newranking.top ul.rankingMenu li.comic a.active { background-position:-93px -19px;}
+.asobi .sideR .box.newranking.top ul.rankingMenu li.bunko a:hover,
+.asobi .sideR .box.newranking.top ul.rankingMenu li.bunko a.active { background-position:-186px -19px;}
+
+.asobi .sideR .box.newranking.bottom {
+	margin:0;
+	padding:0;
+    width:453px;
+	background:url(../img/bg_box_newranking.jpg) bottom;
+	height:1%;
+    min-height:1%;
+	overflow:hidden;
+	clear:both;
+}
+.asobi .sideR .box.newranking.bottom .cntBox h3 {
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px #CA0010 solid;
+	color:#CA0010;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+}
+.asobi .sideR .box.newranking.bottom ul {
+	margin-top:10px;
+	padding:7px 0 0 0;
+	border-top:1px #CCC dashed;
+}
+.asobi .sideR .box.newranking.bottom ul:first-child { border-top:none;}
+
+.asobi .sideR .box.newranking.bottom ul li.rank1,
+.asobi .sideR .box.newranking.bottom ul li.rank2,
+.asobi .sideR .box.newranking.bottom ul li.rank3 {
+	margin:0 0 5px 0;
+	padding-left:40px;
+	overflow:hidden;
+}
+
+.asobi .sideR .box.newranking.bottom ul li.rank1 { background:url(../img/ico_rank1.jpg) no-repeat;}
+.asobi .sideR .box.newranking.bottom ul li.rank2 { background:url(../img/ico_rank2.jpg) no-repeat;}
+.asobi .sideR .box.newranking.bottom ul li.rank3 { background:url(../img/ico_rank3.jpg) no-repeat;}
+.asobi .sideR .box.newranking.bottom ul li p {
+	margin-top:5px;
+	font-size:14px;
+	font-weight:bold;
+}
+.asobi .sideR .box.newranking.bottom ul li p a { color:#CA0010;}
+.asobi .sideR .box.newranking.bottom ul li p a:hover { color:#FF6600;}
+
+
+/*////////// .fortune //////////*/
+
+/*--- 今日の星座別運勢 ---*/
+.asobi .sideR .box.fortune.top {
+	margin:0 0 20px 0;
+	padding:45px 0 0 0;
+	width:281px;
+	height:1%;
+	background:url(../img/ttl_fortune.jpg) no-repeat;
+	overflow:hidden;
+}
+.asobi .sideR .box.fortune.top h2 {
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.asobi .sideR .box.fortune.bottom {
+	margin:0;
+	padding:0;
+	width:281px;
+	background:url(../img/bg_box_fortune.jpg) bottom;
+	height:1%;
+    min-height:1%;
+	overflow:hidden;
+	clear:both;
+}
+
+.asobi .sideR .box.fortune.bottom ul {
+	padding-top:20px;
+	height:95px;
+	overflow:hidden;
+}
+
+.asobi .sideR .box.fortune.bottom .ohitusji ul { background:url(../img/star_ohitsuji.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom .oushi ul { background:url(../img/star_oushi.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom .futago ul { background:url(../img/star_futago.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom .kani ul { background:url(../img/star_kani.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom .shishi ul { background:url(../img/star_shishi.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom .otome ul { background:url(../img/star_otome.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom .tenbin ul { background:url(../img/star_tenbin.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom .sasori ul { background:url(../img/star_sasori.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom .ite ul { background:url(../img/star_ite.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom .yagi ul { background:url(../img/star_yagi.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom .mizugame ul { background:url(../img/star_mizugame.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom .uo ul { background:url(../img/star_uo.jpg) no-repeat;}
+
+.asobi .sideR .box.fortune.bottom ul li { margin-top:10px; margin-left:120px;}
+.asobi .sideR .box.fortune.bottom ul li span { font-size:14px; font-weight:bold;}
+
+
+.asobi .sideR .box.fortune.bottom dl { margin:0 10px; overflow:hidden;}
+.asobi .sideR .box.fortune.bottom dl dt { margin:8px 0 0 0; font-weight:bold; float:left;}
+.asobi .sideR .box.fortune.bottom dl.pointList dd { margin-left:15px; width:190px; height:30px; margin-bottom:7px; float:left;}
+.asobi .sideR .box.fortune.bottom dl.luckyList dd { margin-left:15px; width:125px; margin-top:5px; float:right;}
+.asobi .sideR .box.fortune.bottom dl.luckyList dt { margin:5px 0 0 0; width:100px;}
+
+.asobi .sideR .box.fortune.bottom dl dd.tortal { background:url(../img/ico_fortune_all.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom dl dd.love { background:url(../img/ico_fortune_love.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom dl dd.work { background:url(../img/ico_fortune_work.jpg) no-repeat;}
+.asobi .sideR .box.fortune.bottom dl dd.economic { background:url(../img/ico_fortune_economic.jpg) no-repeat;}
+
+.asobi .sideR .box.fortune.bottom dl dd.point0 { background-position:-200px 0;}
+.asobi .sideR .box.fortune.bottom dl dd.point1 { background-position:-160px 0;}
+.asobi .sideR .box.fortune.bottom dl dd.point2 { background-position:-120px 0;}
+.asobi .sideR .box.fortune.bottom dl dd.point3 { background-position:-80px 0;}
+.asobi .sideR .box.fortune.bottom dl dd.point4 { background-position:-40px 0;}
+.asobi .sideR .box.fortune.bottom dl dd.point5 { background-position:0 0;}
+
+
+/*////////// .pride //////////*/
+
+/*--- あそびにマジメ！？あそび自慢＆対決！ ---*/
+
+.asobi .sideR .box.pride { background-color:transparent;}
+
+.asobi .sideR .box.pride.top {
+	margin:0;
+	padding:0;
+	width:759px;
+	height:1%;
+	overflow:hidden;
+}
+.asobi .sideR .box.pride.top .ttl {
+	margin:0;
+	width:759px;
+	height:42px;
+	background:url(../img/ttl_maincnt.png) no-repeat;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+	position:relative;
+}
+
+.asobi .sideR .box.pride.top .ttl .miniBtn { top:15px; right:55px;}
+
+.asobi .sideR .box.pride.top h2 {
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.asobi .sideR .box.pride.bottom {
+	margin:0;
+	padding:0;
+	width:759px;
+	background:url(../img/bg_box_main.jpg) bottom;
+	height:1%;
+    min-height:1%;
+	overflow:hidden;
+	clear:both;
+}
+
+.asobi .sideR .box.pride.bottom .cntBox { margin:5px 15px 0 15px;}
+.asobi .sideR .box.pride.bottom .cntBox ul {
+	margin:0;
+    padding:10px 0 5px 0;
+	width:100%;
+	border-top:1px dashed #CCCCCC;
+    overflow: hidden;
+}
+.asobi .sideR .box.pride.bottom .cntBox ul:first-child { border-top:none;}
+.asobi .sideR .box.pride.bottom .cntBox ul li.ico { width:51px; margin:0 20px 0 10px; float:left;}
+.asobi .sideR .box.pride.bottom .cntBox ul li.text { float:left;}
+
+.asobi .sideR .box.pride.bottom .cntBox ul li.text p.evaluate { margin:0 0 3px 0;}
+.asobi .sideR .box.pride.bottom .cntBox ul li.text p.evaluate .date {
+	width:380px;
+	display:block;
+	float:left;
+}
+.asobi .sideR .box.pride.bottom .cntBox ul li.text p.evaluate .comment { }
+.asobi .sideR .box.pride.bottom .cntBox ul li.text p.evaluate .rating { margin-right:5px;}
+.asobi .sideR .box.pride.bottom .cntBox ul li.text p.evaluate .star {
+	margin:3px 0 0 0;
+	width:60px;
+	height:12px;
+	/*background:url(../../common/img/evaluate_star.gif) no-repeat 0 0;
+	background-position:-23px 0px;*/
+	display:block;
+	float:right;
+}
+
+
+/*////////// .golf //////////*/
+
+.asobi .sideR .box.golf.top .boxL { 
+	margin-right:16px;
+	width:418px;
+	position:relative;
+	float:left;
+}
+.asobi .sideR .box.golf.top .boxR {
+	width:295px;
+	overflow:hidden;
+	float:left;
+}
+
+.asobi .sideR .box.golf.top {
+	margin:20px 0 0 0;
+	padding:45px 0 0 0;
+	width:759px;
+	height:1%;
+	background:url(../img/ttl_maincnt.png) no-repeat;
+	background-position:0 -42px;
+	position:relative;
+}
+.asobi .sideR .box.golf.top h2 {
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.asobi .sideR .box.golf.bottom {
+	margin:0;
+	padding:0;
+	width:759px;
+	background:url(../img/bg_box_main.jpg) bottom;
+	height:1%;
+    min-height:1%;
+	overflow:hidden;
+	clear:both;
+}
+
+.asobi .sideR .box.golf.top .cntBox { margin:15px;}
+
+
+/*--- ゴルフもマジメ - お知らせ・結果報告・参加募集 ---*/
+.asobi .sideR .box.golf.top .ttl h3 {
+	padding:3px 0 10px 0;
+	border-bottom:1px #CA0010 solid;
+	color:#CA0010;
+	font-size:14px;
+	font-weight:bold;
+	text-indent:0;
+}
+
+.asobi .sideR .box.golf.top .boxL ul {
+	margin:0;
+    padding:10px 0;
+	width:100%;
+	border-bottom:1px dashed #CCCCCC;
+    overflow: hidden;
+}
+
+.asobi .sideR .box.golf.top ul li.photo {
+	margin-right:15px;
+	width:70px;
+	height:52px;
+	float:left;
+}
+.asobi .sideR .box.golf.top ul li.text { float:left;}
+.asobi .sideR .box.golf.top ul li.text .dateBox {
+	margin:0 0 10px 0;
+	overflow:hidden;
+}
+.asobi .sideR .box.golf.top ul li.text span.date { float:left;}
+.asobi .sideR .box.golf.top ul li.text span.ico {
+	margin-left:10px;
+	height:16px;
+	background:url(../img/ico_status.gif) no-repeat;
+	color:#FFF;
+	display:block;
+	float:left;
+	font-size:0;
+	text-indent:-9999px;
+}
+.asobi .sideR .box.golf.top ul li.text span.ico.bosyuu { width:120px; background-position:0 0;}
+.asobi .sideR .box.golf.top ul li.text span.ico.kekka { width:98px; background-position:0 -16px;}
+.asobi .sideR .box.golf.top ul li.text span.ico.news { width:57px; background-position:0 -32px;}
+
+/*--- ゴルフもマジメ - 年間スコアランキング ---*/
+.asobi .sideR .box.golf.top .scoreBox {
+	padding:5px;
+	width:283px;
+	background:#F0F0F0;
+	border:1px #CCC solid;
+	overflow:hidden;
+}
+.asobi .sideR .scoreBox .box { margin-bottom:0;}
+.asobi .sideR .scoreBox .box.score h3 {
+	width:283px;
+	height:45px;
+	background:url(../img/ttl_score.jpg) no-repeat;
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+}
+
+.asobi .sideR .scoreBox .box.score .cntBox { margin:10px;}
+
+.asobi .sideR .scoreBox .box.score .ttl {
+	margin-bottom:10px;
+	padding-bottom:7px;
+	border-bottom:1px #CA0010 solid;
+	color:#CA0010;
+	font-weight:bold;
+	overflow:hidden;
+}
+.asobi .sideR .scoreBox .box.score .ttl h4 { margin:0 auto; width:190px; font-size:14px; font-weight:bold; text-indent:0; float:left;}
+.asobi .sideR .scoreBox .box.score .ttl span.best {
+	width:73px;
+	display:block;
+	font-size:10px;
+	text-align:center;
+	text-indent:0;
+	float:left;
+}
+
+.asobi .sideR .scoreBox .box.score ul li.ranking {
+	padding:10px 0 0 0;
+	border-top:1px #CCC dashed;
+}
+.asobi .sideR .scoreBox .box.score ul li.ranking:first-child { padding-top:0; border-top:none;}
+
+.asobi .sideR .scoreBox .box.score ul li.rank1,
+.asobi .sideR .scoreBox .box.score ul li.rank2,
+.asobi .sideR .scoreBox .box.score ul li.rank3,
+.asobi .sideR .scoreBox .box.score ul li.rank4, .asobi .sideR .scoreBox .box.score ul li.rank5,
+.asobi .sideR .scoreBox .box.score ul li.rank5, .asobi .sideR .scoreBox .box.score ul li.rank6,
+.asobi .sideR .scoreBox .box.score ul li.rank7, .asobi .sideR .scoreBox .box.score ul li.rank8,
+.asobi .sideR .scoreBox .box.score ul li.rank9, .asobi .sideR .scoreBox .box.score ul li.rank10{
+	margin-bottom:5px;
+	padding-left:35px;
+	overflow:hidden;
+}
+.asobi .sideR .scoreBox .box.score li.rank1 { background:url(../img/ico_rank1.jpg) no-repeat;}
+.asobi .sideR .scoreBox .box.score li.rank2 { background:url(../img/ico_rank2.jpg) no-repeat 0 10px;}
+.asobi .sideR .scoreBox .box.score li.rank3 { background:url(../img/ico_rank3.jpg) no-repeat 0 10px;}
+.asobi .sideR .scoreBox .box.score li.rank4 { background:url(../img/ico_rank4.jpg) no-repeat 0 10px;}
+.asobi .sideR .scoreBox .box.score li.rank5 { background:url(../img/ico_rank5.jpg) no-repeat 0 10px;}
+.asobi .sideR .scoreBox .box.score li.rank6 { background:url(../img/ico_rank6.jpg) no-repeat 0 10px;}
+.asobi .sideR .scoreBox .box.score li.rank7 { background:url(../img/ico_rank7.jpg) no-repeat 0 10px;}
+.asobi .sideR .scoreBox .box.score li.rank8 { background:url(../img/ico_rank8.jpg) no-repeat 0 10px;}
+.asobi .sideR .scoreBox .box.score li.rank9 { background:url(../img/ico_rank9.jpg) no-repeat 0 10px;}
+.asobi .sideR .scoreBox .box.score li.rank10 { background:url(../img/ico_rank10.jpg) no-repeat 0 10px;}
+
+.asobi .sideR .scoreBox .box.score li.text { width:170px; margin-right:10px; overflow:hidden; float:left;}
+.asobi .sideR .scoreBox .box.score li.text span.date { margin-bottom:3px; display:block; overflow:hidden;}
+.asobi .sideR .scoreBox .box.score li.text p.name { font-weight:bold; clear:both; overflow:hidden;}
+.asobi .sideR .scoreBox .box.score li.best {
+	padding-top:1px;
+	width:32px;
+	height:18px;
+	color:#FFF;
+	background:url(../img/bg_score_best.gif) no-repeat;
+	font-weight:bold;
+	text-align:center;
+	float:left;
+}
+
+.asobi .sideR .scoreBox .box.score ul li.ranking ul { overflow:hidden;}
+.asobi .sideR .scoreBox .box.score ul li.ranking p.corse { margin-top:3px; font-size:11px;}
+
+.asobi .sideR .scoreBox .box.score .listBtn .miniBtn.regist02 {
+	width:60px;
+	height:18px;
+	background:url(../../common/img/btn_regist.png) no-repeat;
+	color:#FFF;
+	background-position:0 -72px;
+	display:block;
+	font-size:0;
+	text-indent:-9999px;
+	position:inherit;
+	float:left;
+}
+
+.asobi .sideR .scoreBox .box.score .miniBtn { top:auto; right:auto;}
+
+/*--- ゴルフもマジメ - 都道府県別ゴルフ場検索 ---*/
+.asobi .sideR .box.golf.top .searchBox {
+	margin-top:20px;
+	width:295px;
+	overflow:hidden;
+}
+.asobi .sideR .searchBox .ttl {
+	margin-bottom:10px;
+	padding-bottom:7px;
+	border-bottom:1px #CA0010 solid;
+	color:#CA0010;
+	overflow:hidden;
+}
+.asobi .sideR .box.golf.top .searchBox .ttl h4 { width:190px; font-size:14px; font-weight:bold; text-indent:0; float:left;}
+
+.asobi .sideR .box.golf.top .searchBox .mapBox {
+	margin:10px 0 20px 0;
+    padding:0;
+	color:#CA0010;
+	font-size:10px;
+	font-weight:bold;
+}
+.asobi .sideR .box.golf.top .searchBox .mapBox td.key {
+	padding-right:3px;
+	width:68px;
+	line-height:1.4em;
+	text-align:right;
+	vertical-align:top;
+}
+.asobi .sideR .box.golf.top .searchBox .mapBox td.value { width:254px; line-height:1.4em;}
+
+
+/*////////// .hobby //////////*/
+
+/*--- 趣味・サークル広場 ---*/
+
+.asobi .sideR .box.hobby { background-color:transparent;}
+
+.asobi .sideR .box.hobby.top {
+	margin:20px 0 0 0;
+	padding:45px 0 0 0;
+	width:759px;
+	height:1%;
+	background:url(../img/ttl_maincnt.png) no-repeat;
+	background-position:0 -87px;
+	position:relative;
+}
+.asobi .sideR .box.hobby.top h2 {
+	color:#FFF;
+	font-size:0;
+	text-indent:-9999px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.asobi .sideR .box.hobby.top .ttl {  position:relative;}
+
+.asobi .sideR .box.hobby.top .ttl h3 {
+	padding:3px 0 10px 0;
+	border-bottom:1px #CA0010 solid;
+	color:#CA0010;
+	font-size:14px;
+	font-weight:bold;
+	text-indent:0;
+}
+.asobi .sideR .box.hobby.bottom {
+	margin:0;
+	padding:0;
+	width:759px;
+	background:url(../img/bg_box_main.jpg) bottom;
+
+	height:1%;
+    min-height:1%;
+	overflow:hidden;
+	clear:both;
+}
+.asobi .sideR .box.hobby.bottom ul {
+	margin:10px 0 15px 0;
+	padding-bottom:5px;
+	border-bottom:1px #CCC dashed;
+}
+.asobi .sideR .box.hobby.bottom ul li {
+	margin-bottom:10px;
+	overflow:hidden;
+}
+.asobi .sideR .box.hobby.bottom ul li span { margin-right:15px; float:left;}
+.asobi .sideR .box.hobby.bottom ul li p { float:left;}
+
+.asobi .sideR .box.hobby.bottom .cntBox { margin:15px; overflow:hidden;}
+
+.asobi .sideR .box.hobby.bottom .detailBox { margin-left:-10px; overflow:hidden;}
+
+.asobi .sideR .box.hobby.bottom p.detail { 
+	margin-top:15px; 
+	margin-left:10px; 
+	padding:10px; 
+	width:336px; 
+	border:1px #CCC solid; 
+	overflow:hidden; 
+	float:left;
+}
+/*.asobi .sideR .box.hobby.bottom p.detail img { 
+	margin-right:10px; 
+	float:left;
+}*/
+.asobi .sideR .box.hobby.bottom p.detail span {
+	margin-bottom:2px;
+	width:220px;
+	color:#CA0010;
+	font-weight:bold;
+	display:block;
+	float:left;
+}
+
+/* 2014-04-07 add */
+.asobi .sideR .box.hobby.bottom p.detail a.tumnail {
+	display: block;
+	float: left;
+	margin-right:10px; 
+	width: 104px;
+	height: 70px;
+}
+.asobi .sideR .box.hobby.bottom p.detail a.desc {
+	display: block;
+	float: left;
+	width: 220px;
+}
+
+/*////////// button //////////*/
+
+ /*--- 一覧を見るボタン ---*/
+.asobi .sideR .box .listBtn {
+	padding:10px;
+	border-top:1px #CCC dashed;
+	overflow:hidden;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*////////// .tagcrowd //////////*/
+
+.asobi .tagcrowd { overflow:hidden;}
+.asobi .tagcrowd p { margin-bottom:25px; padding-top:3px; padding-bottom:50px; width:100%; color:#CA0010; font-weight:bold; overflow:hidden;}
+.asobi .tagcrowd p a { margin-right:15px; color:#CA0010; /*word-break:keep-all;*/ word-wrap:break-word;}
+.asobi .tagcrowd p a:hover { color:#F60;} 
+.asobi .tagcrowd p .txt3 { font-size:45px; line-height:45px;}
+.asobi .tagcrowd p .txt2 { font-size:30px; line-height:30px;}
+.asobi .tagcrowd p .txt1 { font-size:15px; line-height:15px;}
+
+/*////////////////////////////////////////////////////////////////////////////////*/

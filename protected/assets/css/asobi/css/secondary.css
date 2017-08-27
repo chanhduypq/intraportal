@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "skill.css";		/* 資格取得・スキルアップ！ */
+@import "link.css";			/* リンク集 */
+@import "ranking.css";		/* 最新ランキング */
+@import "fortune.css";		/* 今日の星座別運勢 */
+@import "../../common/css/pride.css";		/* あそびにマジメ！？あそび自慢＆対決！ */
+@import "../../common/css/golf_news.css";	/* ゴルフにマジメ！ */
+@import "../../common/css/golf_score.css";	/* ゴルフにマジメ！年間スコアランキング */
+@import "../../common/css/hobby_new.css";	/* 趣味・サークルの広場 What'sNew */
+@import "../../common/css/hobby_itd.css";	/* 趣味・サークルの広場 サークル紹介 */
+@import "tagcrowd.css";	/* Twitter タグクラウド */
+
+/** 
+ *	今日の名言
+ **/ 
+.meigen #witt_frame {
+	padding: 20px 60px;
+	margin: 20px 40px;
+	background-color: rgb(237, 237, 206);
+	border: 3px solid rgb(194, 112, 133);
+}
+.meigen .witticism {
+	padding: 10px;
+	font-size: large;
+	line-height: 140%;
+	font-weight: 700;
+	text-align: left;
+}
+.meigen .source {
+	text-align: right;
+	padding: 10px;
+}
+
+/** 
+ *	今日は何の日
+ **/ 
+.nannohi .box .section ul {
+    margin: 20px 20px 40px 20px;
+}
+.nannohi .box .section ul li {
+	margin-bottom: 6px;
+}

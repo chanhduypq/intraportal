@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  製品アイデア投稿広場
+ ---------------------------------------------- */
+
+
+#majime .ideas .comments li {
+	margin-bottom: 20px;
+}
+#majime .ideas .comments li .commenter {
+	font-size: 12px;
+}
+

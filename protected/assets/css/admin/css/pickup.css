@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  今日の社員ピックアップ
+ ---------------------------------------------- */
+
+.pickup select {
+	margin-right:5px;
+	width:275px;
+}
+
+.catchcopy{
+	font-weight:bold;
+	font-size:110%;
+	}

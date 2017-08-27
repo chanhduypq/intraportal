@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  Twitter タグクラウド
+ ---------------------------------------------- */
+
+#asobi .tagcrowd { margin:15px;}
+#asobi .tagcrowd h3 {
+	margin-bottom:0;
+	padding:10px;
+	background:#D70212;
+	color:#FFF;
+	font-size:20px;
+	font-weight:bold;
+	border-radius: 7px;        /* CSS3草案 */  
+    -webkit-border-radius: 7px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 7px;   /* Firefox用 */
+}
+#asobi .tagcrowd .arrow {
+	margin:0 0 15px 30px;
+	width:10px;
+	height:10px;
+	background:url(../img/balloon_arrow.gif) no-repeat;
+}
+
+#asobi .tagcrowd .table td {
+	padding:15px;
+	background:#FFF;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+	border:1px #CCC dotted;
+}
+#asobi .tagcrowd .table td p.comment {
+	margin-bottom:10px;	line-height:1.6em;
+}
+#asobi .tagcrowd .table td p.title {
+	font-size:12px;
+	float:right;
+}
+#asobi .tagcrowd .table td p.title a {
+	float:left;
+}
+#asobi .tagcrowd .table td p.title span {
+	margin-left:10px;
+	color:#666;
+	display:block;
+	float:left;
+}
+
+

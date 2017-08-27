@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  リアルタイム社内報告
+ ---------------------------------------------- */
+
+.report .ico {
+	margin:0 10px 0 0;
+	width:36px;
+	height:27px;
+	background:url(../img/ico_report.gif) no-repeat;
+	color:#FFF;
+	display:block;
+	font-size:0;
+	text-indent:-9999px;
+}
+.report .ico.help { background-position:0 0;}
+.report .ico.eigyou { background-position:0 -27px;}
+.report .ico.uwasa { background-position:0 -54px;}
+.report .ico.seizou { background-position:0 -81px;}
+.report .ico.gyousei { background-position:0 -108px;}
+.report .ico.hall { background-position:0 -135px;}
+.report .ico.kaihatsu { background-position:0 -162px;}
+.report .ico.kyougou { background-position:0 -189px;}
+.report .ico.other { background-position:0 -216px;}
+
+.report .detailTtl .ico {
+	display: inline-block;
+	float: left;
+}
+
+.report .index table td.td-date {
+	width: 100px;
+}
+
+.report .detail .counter {
+	text-align: right;
+}

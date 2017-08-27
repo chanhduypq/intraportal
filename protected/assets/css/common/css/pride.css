@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  あそびにマジメ！？あそび自慢＆対決！
+ ---------------------------------------------- */
+
+.pride div.evaluate {
+	overflow: hidden;
+}
+.pride div.evaluate p { margin:0 5px 0 0; float:left; }
+.pride div.evaluate p.comment {
+	margin:0 10px 0 0;
+	width:120px;
+}
+
+.pride span.star {
+	margin:3px 0 0 0;
+	width:60px;
+	height:12px;
+	background:url(../img/evaluate_star.gif) no-repeat 0 0;
+	display: inline-block;
+}
+.pride span.star.star0 { background-position:-58px 0px; }
+.pride span.star.star1 { background-position:-46px 0px; }
+.pride span.star.star2 { background-position:-36px 0px; }
+.pride span.star.star3 { background-position:-24px 0px; }
+.pride span.star.star4 { background-position:-12px 0px; }
+.pride span.star.star5 { background-position: 0px 0px; }
+
+
+.pride span.pride-icon {
+	width: 51px;
+	height: 50px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: top left;
+	text-indent: -9999px;
+}
+.pride span.pride-icon-prize01 { background-image: url(../img/ico_prize01.jpg); }
+.pride span.pride-icon-prize02 { background-image: url(../img/ico_prize02.jpg); }
+.pride span.pride-icon-prize03 { background-image: url(../img/ico_prize03.jpg); }
+.pride span.pride-icon-prize04 { background-image: url(../img/ico_prize04.jpg); }
+.pride span.pride-icon-prize05 { background-image: url(../img/ico_prize05.jpg); }
+.pride span.pride-icon-prize06 { background-image: url(../img/ico_prize06.jpg); }
+.pride span.pride-icon-prize07 { background-image: url(../img/ico_prize07.jpg); }
+.pride span.pride-icon-prize08 { background-image: url(../img/ico_prize08.jpg); }
+
+/* 
+ * 一覧(index.html) 
+ */
+.pride table.table tr .td-date {
+	width: 100px;
+}
+.pride table.table tr .td-icon {
+	width: 59px;
+}
+.pride table.table tr .td-icon span[class^="pride-icon"]{
+	display: block;
+}
+
+/* 
+ * 詳細(detail.html) 
+ */
+.pride .comments li {
+	margin-bottom: 20px;
+}
+.pride .comments li .commenter {
+	font-size: 12px;
+}
+
+.pride .detail span[class^="pride-icon"]{
+	width: 51px;
+	float: left;
+	margin: 10px 20px 10px 10px;
+}
+.pride .detail div.evaluate {
+	margin-top: 30px;
+}

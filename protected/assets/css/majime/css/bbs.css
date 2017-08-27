@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  ニューギン掲示板
+ ---------------------------------------------- */
+
+#majime .wrap.bbs table .td-date { width:100px;}
+#majime .wrap.bbs table .td-title { width:550px;}
+#majime .wrap.bbs table .td-posts { width:50px;}
+
+#majime .wrap.bbs div.cnt-box2{margin-bottom:20px;}
+
+#majime .wrap.bbs div.alnR{margin-bottom:5px;}

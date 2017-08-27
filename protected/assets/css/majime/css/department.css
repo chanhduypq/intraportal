@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  拠点＆メンバー紹介
+ ---------------------------------------------- */
+
+/*--- 拠点エリア選択 ---*/
+
+#majime .single div.detail .area ul {
+    margin: 0;
+}
+
+.department ul {
+background: none repeat scroll 0% 0% rgb(255, 242, 224);
+	padding:8px;
+	}
+
+.department ul li{
+	clear:both;
+	}
+	
+#majime .single div.department ul .dep2{
+	border:2px dotted #666;
+	margin-top:5px;
+	margin-bottom:5px;
+	display:block;
+	}

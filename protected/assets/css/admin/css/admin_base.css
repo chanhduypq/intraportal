@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  部署管理固有CSS
+ ---------------------------------------------- */
+
+/* 2013-10-22 追加 koumura 部署管理一覧表 */
+.base .box .company table {
+	table-layout: fixed;
+	width: 724px;
+	border: none;
+}
+.base table tr td {
+	padding: 4px 2px;	
+}
+.base table tr .updown {
+	width: 100px;
+	text-align: center;
+}
+.base table tr .actions {
+	width: 200px;
+	text-align: center;
+}
+.base table tr .branch {
+	width: 180px;
+}
+
+/* 会社管理 */
+.base .company #company-list table {
+	table-layout: fixed;
+}
+.base .company #company-list table tr .branch,
+.base .company #company-list table tr .unit {
+	width: 90px;
+	text-align: center;
+}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  お祝い
+ ---------------------------------------------- */
+
+#majime .wrap.celebrate table .td-date { width:100px;}
+#majime .wrap.celebrate table .td-type { width:80px;}
+#majime .wrap.celebrate table .td-name1 { width:100px;}
+#majime .wrap.celebrate table .td-name2 { width:444px;}

@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  今日の星座別運勢
+ ---------------------------------------------- */
+
+#asobi .fortune td {
+	padding:10px 20px;
+	border-bottom:1px #CCC dotted;
+	vertical-align:middle;
+}
+#asobi .fortune td.td-rank { width:25px;}
+
+#asobi .fortune .box .list div.star { margin:0 auto; width:106px; height:135px;}
+#asobi .fortune .box .list div#ohitusji { background:url(../img/star_ohitsuji.jpg) no-repeat;}
+#asobi .fortune .box .list div#oushi { background:url(../img/star_oushi.jpg) no-repeat;}
+#asobi .fortune .box .list div#futago { background:url(../img/star_futago.jpg) no-repeat;}
+#asobi .fortune .box .list div#kani { background:url(../img/star_kani.jpg) no-repeat;}
+#asobi .fortune .box .list div#shishi { background:url(../img/star_shishi.jpg) no-repeat;}
+#asobi .fortune .box .list div#otome { background:url(../img/star_otome.jpg) no-repeat;}
+#asobi .fortune .box .list div#tenbin { background:url(../img/star_tenbin.jpg) no-repeat;}
+#asobi .fortune .box .list div#sasori { background:url(../img/star_sasori.jpg) no-repeat;}
+#asobi .fortune .box .list div#ite { background:url(../img/star_ite.jpg) no-repeat;}
+#asobi .fortune .box .list div#yagi { background:url(../img/star_yagi.jpg) no-repeat;}
+#asobi .fortune .box .list div#mizugame { background:url(../img/star_mizugame.jpg) no-repeat;}
+#asobi .fortune .box .list div#uo { background:url(../img/star_uo.jpg) no-repeat;}
+
+#asobi .fortune .box div.star p { padding-top:115px; font-weight:bold;}
+
+#asobi .fortune .box .descriptionTxt {
+	margin:10px 10px 15px 10px;
+	padding:10px;
+	background:#F7CFCF;
+	border-radius: 7px;        /* CSS3草案 */  
+    -webkit-border-radius: 7px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 7px;   /* Firefox用 */ 
+	font-size:11px;
+} 
+
+#asobi .fortune dl { width:350px; margin:0 10px 15px 10px; overflow:hidden;}
+#asobi .fortune dl dt { margin:10px 0 0 0; width:120px; font-weight:bold; text-align:right; float:left;}
+#asobi .fortune dl.pointList dd { margin-left:15px; width:190px; height:30px; margin-top:7px; float:left;}
+#asobi .fortune dl.luckyList dd { margin-left:15px; width:200px; margin-top:5px; float:left;}
+#asobi .fortune dl.luckyList dt { margin:5px 0 0 0; width:120px;}
+
+#asobi .fortune dl dd.tortal { background:url(../img/ico_fortune_all.jpg) no-repeat;}
+#asobi .fortune dl dd.love { background:url(../img/ico_fortune_love.jpg) no-repeat;}
+#asobi .fortune dl dd.work { background:url(../img/ico_fortune_work.jpg) no-repeat;}
+#asobi .fortune dl dd.economic { background:url(../img/ico_fortune_economic.jpg) no-repeat;}
+
+#asobi .fortune dl dd.point0 { background-position:-200px 0;}
+#asobi .fortune dl dd.point1 { background-position:-160px 0;}
+#asobi .fortune dl dd.point2 { background-position:-120px 0;}
+#asobi .fortune dl dd.point3 { background-position:-80px 0;}
+#asobi .fortune dl dd.point4 { background-position:-40px 0;}
+#asobi .fortune dl dd.point5 { background-position:0 0;}

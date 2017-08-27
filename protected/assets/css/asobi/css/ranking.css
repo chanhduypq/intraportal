@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  最新ランキング
+ ---------------------------------------------- */
+#asobi .ranking table { table-layout:fixed;}
+ 
+#asobi .ranking table.list th span,
+#asobi .ranking table.list td span {
+	display: block;
+}
+#asobi .ranking table.list th,
+#asobi .ranking table.list th span {
+	font-weight: bold;
+	color: #E60213;
+	text-align: center;
+}
+
+#asobi .ranking table.list .td-rank {
+	font-weight: bold;
+	color: #E60213;
+	text-align: center;
+	width: 70px;
+}
+
+/* 売上数  */
+#asobi .ranking table.list .td-sales {
+	width: 130px;
+}
+#asobi .ranking table.list .td-sales span {
+	text-align: center;
+}
+#asobi .ranking table.list td.td-iteminfo {
+	font-size: 11px;
+}
+
+/* 商品情報  */
+#asobi .ranking table.list .td-iteminfo p.title {
+	font-size: 13px;
+}
+#asobi .ranking table.list .td-iteminfo ul.info {
+	overflow:hidden;
+}
+#asobi .ranking table.list .td-iteminfo ul.info li {
+	float: left;
+	margin-right: 10px;
+	display:block;
+	white-space:nowrap;
+}
+#asobi .ranking table.list .td-iteminfo ul.info li.artist {
+	float:none;
+}
+
+#asobi .ranking table.list .td-iteminfo .title {
+	font-size: 12px;
+}
+
+
+/** 
+ * ナビゲーション
+ **/
+#asobi .ranking .index ul.genre-navi {
+	position: relative;
+	left: 300px;
+	width: 440px;
+	margin-bottom: 16px;
+	margin-top: -16px;
+}
+#asobi .ranking .nav-tabs > li > a, 
+#asobi .ranking .nav-pills > li > a {
+	padding-left: 6px;
+	padding-right: 6px;
+	text-decoration: none;
+}
+#asobi .ranking .nav-pills > li > a:hover {
+	background-color: #FFECD0;
+}
+#asobi .ranking .nav-pills > .active > a, 
+#asobi .ranking .nav-pills > .active > a:hover {
+	color: #ffffff;
+	background-color: #E60213;
+}

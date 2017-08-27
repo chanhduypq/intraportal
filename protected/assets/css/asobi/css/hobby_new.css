@@ -1,0 +1,52 @@
+@charset "utf-8";
+.hobby_new span.star {
+    background: url("../img/evaluate_star.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 12px;
+    margin: 3px 0 0;
+    width: 60px;
+}
+.hobby_new span.star.star0 {
+    background-position: -58px 0;
+}
+.hobby_new span.star.star1 {
+    background-position: -46px 0;
+}
+.hobby_new span.star.star2 {
+    background-position: -36px 0;
+}
+.hobby_new span.star.star3 {
+    background-position: -24px 0;
+}
+.hobby_new span.star.star4 {
+    background-position: -12px 0;
+}
+.hobby_new span.star.star5 {
+    background-position: 0 0;
+}
+.hobby_new .index table th {
+    text-align: center;
+}
+.hobby_new .index table tr td.td-category {
+    text-align: center;
+    width: 160px;
+}
+.hobby_new .index table tr td.td-date {
+    text-align: center;
+    width: 100px;
+}
+.hobby_new .detail .category {
+    margin-top: 2px;
+    text-align: right;
+}
+.hobby_new .detail div.picture img {
+    display: block;
+    margin: 20px auto;
+}
+.hobby_new .comments li {
+    margin-bottom: 20px;
+}
+.hobby_new .comments li .commenter {
+    font-size: 12px;
+    text-align: right;
+}

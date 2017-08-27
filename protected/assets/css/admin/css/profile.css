@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* ----------------------------------------------
+ *  プロフィール
+ ---------------------------------------------- */
+
+.baseDetailBox table{
+	width:720px;
+	margin:0 auto;
+	margin-bottom:30px;
+	}
+
+.baseDetailBox table th{
+	width:130px;
+	font-weight:normal;
+	padding:5px;
+	text-align:right;
+	}	
+
+.baseDetailBox table td{
+	width:auto;
+	font-weight:normal;
+	padding:5px;
+	padding-left:20px;
+	}
+
+.baseDetailBox table td span{
+	padding-right:10px;
+	}	
