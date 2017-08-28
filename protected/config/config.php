@@ -9,10 +9,10 @@
 class Config
 {
 	/*DB�ݒ�*/
-	const HOST_DATA = '192.168.168.11';
-	const DB_NAME = 'IntraPortal';
-	const LOGIN_DATA = 'rsdn';
-	const PASS_DATA = 'rsdn20120903';
+	const HOST_DATA = 'localhost';
+	const DB_NAME = 'intraportal';
+	const LOGIN_DATA = 'root';
+	const PASS_DATA = '';
 	const LIMIT_ROW = 10;
 	
 	//pick up mail subject
