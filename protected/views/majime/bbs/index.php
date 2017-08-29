@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/majime/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script language="javascript">
 bbs = getCookie("bbs_regist_from");
 if(bbs !="" || bbs ==null)

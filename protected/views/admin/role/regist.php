@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script src="<?php echo $this->assetsBase; ?>/js/lib/role.js"></script>
 <script src="<?php echo $this->assetsBase; ?>/js/lib/json.js"></script>
 <div class="wrap admin secondary role">

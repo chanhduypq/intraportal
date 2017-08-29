@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/majime/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script language="javascript">
 newitem = getCookie("newitem_reg_title");
 if(newitem !="" || newitem ==null)

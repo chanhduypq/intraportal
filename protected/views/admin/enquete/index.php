@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script type="text/javascript">
 enquete = getCookie("enquete_edit_from");
 if(enquete !="" || enquete ==null)

@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script type="text/javascript">
 golf_news = getCookie("golf_news_edit_from");
 if(golf_news !="" || golf_news ==null)

@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script type="text/javascript">
 	celebrate_rpt_regist = getCookie("celebrate_rpt_regist_form");
 	if(celebrate_rpt_regist !="" && celebrate_rpt_regist !=null && celebrate_rpt_regist !="null")

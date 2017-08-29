@@ -1,5 +1,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js" type="text/javascript"></script>
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <link href="<?php echo $this->assetsBase; ?>/css/admin/css/sales_ran.css" rel="stylesheet" type="text/css">
 <div class="wrap admin secondary sales_ran">
 

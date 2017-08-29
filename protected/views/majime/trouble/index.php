@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/majime/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script type="text/javascript">
 
 trouble = getCookie("trouble_regist_from");

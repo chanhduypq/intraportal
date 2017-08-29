@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/majime/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <link href="<?php echo $this->assetsBase;?>/css/common/css/ideas.css" rel="stylesheet" type="text/css">
 <script language="javascript">
 ideas = getCookie("ideas_regist_from");

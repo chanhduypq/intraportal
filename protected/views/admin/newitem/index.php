@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script language="javascript">
 newitem = getCookie("newitem_edit_form");
 if(newitem !="" || newitem ==null){ 

@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <div class="wrap admin secondary celebrate_rpt">
     <div class="container">
         <div class="contents regist_confirm">

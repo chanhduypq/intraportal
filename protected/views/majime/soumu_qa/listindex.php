@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/majime/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <div class="wrap majime secondary soumu_qa">
 
     <div class="container">

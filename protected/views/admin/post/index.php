@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <link href="<?php echo $this->assetsBase; ?>/css/admin/css/post.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">
 

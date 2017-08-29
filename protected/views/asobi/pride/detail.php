@@ -1,8 +1,8 @@
 <link href="<?php echo $this->assetsBase; ?>/css/common/css/pride.css" rel="stylesheet" type="text/css">
 <link href="<?php echo $this->assetsBase; ?>/css/asobi/css/secondary.css" rel="stylesheet" type="text/css"/>
-<link href="<?php echo $this->assetsBase; ?>/css/common/css/prettyPhoto.css" rel="stylesheet"  media="screen" />
-<script src="<?php echo $this->assetsBase; ?>/css/common/js/jquery.prettyPhoto.js"></script>
-<script src="<?php echo $this->assetsBase; ?>/css/common/js/initPrettyPhoto.js"></script>
+
+
+
 <script language="javascript">
 jQuery(function($) {        
 			$("body").attr('id','asobi');      

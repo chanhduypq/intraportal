@@ -1,7 +1,7 @@
 <link href="<?php echo $this->assetsBase; ?>/css/asobi/css/secondary.css" rel="stylesheet" type="text/css"/>
-<link href="<?php echo $this->assetsBase; ?>/css/common/css/prettyPhoto.css" rel="stylesheet"  media="screen" />
-<script src="<?php echo $this->assetsBase; ?>/css/common/js/jquery.prettyPhoto.js"></script>
-<script src="<?php echo $this->assetsBase; ?>/css/common/js/initPrettyPhoto.js"></script>
+
+
+
 <script type="text/javascript">
     hobby_itd_regist_from = getCookie("hobby_itd_regist_title");
     if (hobby_itd_regist_from != "" || hobby_itd_regist_from == null)

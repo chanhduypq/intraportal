@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script language="javascript">
 from_jini= getCookie("from_jini");
 if(from_jini !="" || from_jini ==null)

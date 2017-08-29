@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script language="javascript">
 if(getCookie("hobby_new_edit_form")!=null && getCookie("hobby_new_edit_form")!=undefined)
 {

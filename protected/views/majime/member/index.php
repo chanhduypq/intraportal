@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/majime/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <link href="<?php echo $this->assetsBase; ?>/css/majime/css/department.css" rel="stylesheet" type="text/css" />
 <body id="majime">
 <div class="wrap single member">

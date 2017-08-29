@@ -1,8 +1,8 @@
 
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
-<link href="<?php echo $this->assetsBase; ?>/css/common/css/prettyPhoto.css" rel="stylesheet"  media="screen" />
-<script src="<?php echo $this->assetsBase; ?>/css/common/js/jquery.prettyPhoto.js"></script>
-<script src="<?php echo $this->assetsBase; ?>/css/common/js/initPrettyPhoto.js"></script>
+
+
+
+
 
 <?php $attachment1_ext=FunctionCommon::getExtensionFile($model->attachment1);?>
 <div class="wrap admin secondary bounty">

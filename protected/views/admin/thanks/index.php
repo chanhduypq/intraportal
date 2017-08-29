@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script type="text/javascript">
     thanks= getCookie("thanks_edit_comment");
 if(thanks !="" || thanks ==null){ 

@@ -49,6 +49,18 @@ if(Yii::app()->request->cookies['id'] !="")
         -webkit-user-select:none;
     }
 </style>
+<?php 
+if(stripos(Yii::app()->getController()->getId(), 'admin')!==FALSE){
+    $module='admin';
+}
+else{
+    $module='majime';
+}
+?>
+<link href="<?php echo $this->assetsBase; ?>/css/<?php echo $module;?>/css/secondary.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo $this->assetsBase; ?>/css/common/css/prettyPhoto.css" rel="stylesheet"  media="screen" />
+<script src="<?php echo $this->assetsBase; ?>/css/common/js/jquery.prettyPhoto.js"></script>
+<script src="<?php echo $this->assetsBase; ?>/css/common/js/initPrettyPhoto.js"></script>
 </head>
 <body id="majime">
 

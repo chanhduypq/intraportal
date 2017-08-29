@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <link href="<?php echo $this->assetsBase; ?>/css/common/css/spectrum.css" rel="stylesheet" type="text/css"/>
 <script src="<?php echo $this->assetsBase; ?>/css/common/js/initSpectrum.js"></script>
 <script src="<?php echo $this->assetsBase; ?>/css/common/js/spectrum.js"></script>

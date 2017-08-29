@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/majime/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script type="text/javascript">
     jQuery(function($) {
         $('ul.yiiPager li.selected').removeClass('selected');

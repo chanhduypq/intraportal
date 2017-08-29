@@ -1,7 +1,7 @@
-<link href="<?php echo $this->assetsBase; ?>/css/majime/css/secondary.css" rel="stylesheet" type="text/css"/>
-<link href="<?php echo $this->assetsBase; ?>/css/common/css/prettyPhoto.css" rel="stylesheet"  media="screen" />
-<script src="<?php echo $this->assetsBase; ?>/css/common/js/jquery.prettyPhoto.js"></script>
-<script src="<?php echo $this->assetsBase; ?>/css/common/js/initPrettyPhoto.js"></script>
+
+
+
+
 <?php $attachment1=$model->attachment1;?>
 <?php $attachment2=$model->attachment2;?>
 <?php $attachment3=$model->attachment3;?>

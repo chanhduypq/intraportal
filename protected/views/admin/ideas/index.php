@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script language="javascript">
 ideas = getCookie("ideas_edit_from");
 if(ideas !="" || ideas ==null){ 

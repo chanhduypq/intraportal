@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/majime/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script type="text/javascript">
 to_officer = getCookie("to_officer_add_from");
 if(to_officer !="" || to_officer ==null)

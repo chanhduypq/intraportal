@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/majime/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script type="text/javascript">
 bounty = getCookie("bounty_regist_form");
 if(bounty !="" || bounty ==null){    

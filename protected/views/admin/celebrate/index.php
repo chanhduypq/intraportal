@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script type="text/javascript">
 celebrate_edit = getCookie("celebrate_edit_from");
 if(celebrate_edit !="" || celebrate_edit ==null)

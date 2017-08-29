@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <script language="javascript">
 soumu_qa= getCookie("soumu_qa_edit_from");
  if(soumu_qa !="" || soumu_qa ==null)

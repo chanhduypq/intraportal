@@ -1,4 +1,4 @@
-<link href="<?php echo $this->assetsBase; ?>/css/admin/css/secondary.css" rel="stylesheet" type="text/css"/>
+
 <div class="wrap admin secondary soumu_qa" id="admin">
 
     <div class="container">

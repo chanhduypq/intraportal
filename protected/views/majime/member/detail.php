@@ -1,9 +1,9 @@
 <link href="<?php echo $this->assetsBase;?>/css/asobi/css/zebra_dialog.css" rel="stylesheet" type="text/css">
-<link href="<?php echo $this->assetsBase; ?>/css/majime/css/secondary.css" rel="stylesheet" type="text/css"/>
-<link href="<?php echo $this->assetsBase; ?>/css/common/css/prettyPhoto.css" rel="stylesheet"  media="screen" />
+
+
 <link href="<?php echo $this->assetsBase; ?>/css/majime/css/profile.css" rel="stylesheet"  media="screen" />
-<script src="<?php echo $this->assetsBase; ?>/css/common/js/jquery.prettyPhoto.js"></script>
-<script src="<?php echo $this->assetsBase; ?>/css/common/js/initPrettyPhoto.js"></script>
+
+
 <script src="<?php echo $this->assetsBase; ?>/js/lib/zebra_dialog.js"></script>
 <script type='text/javascript' src='https://maps-api-ssl.google.com/maps/api/js?sensor=false&language=ja'></script>
 <link href="<?php echo $this->assetsBase;?>/css/asobi/css/jquery-ui.css" rel="stylesheet" type="text/css">
